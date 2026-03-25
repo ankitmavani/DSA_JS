@@ -6,7 +6,10 @@
     "generate": "node scripts/generate.js",
     "progress": "node scripts/readme.js",
     "track": "node scripts/track.js",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "lint": "eslint .",
+    "fix": "eslint . --fix",
+    "commit": "npm run format && npm run fix && npm run progress"
   },
   "lint-staged": {
     "*.js": [

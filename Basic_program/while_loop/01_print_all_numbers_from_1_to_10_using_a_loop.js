@@ -13,6 +13,7 @@ function solve() {
   while(i<=10){
     output+=i
 
+
     if(i<10) output+=" "
     i++
   }
