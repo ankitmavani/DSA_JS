@@ -1,5 +1,6 @@
 📝 10 Practice Questions Based on Sentinel Logic
 🟢 Easy (1–3)
+
 1. Find the index of a key using sentinel search
 
 Given an array of numbers and a key, return its index using sentinel linear search.
@@ -12,8 +13,7 @@ Return true or false using sentinel search.
 
 Modify sentinel search to count occurrences.
 
-🟡 Medium (4–7)
-4. Search in an array of strings
+🟡 Medium (4–7) 4. Search in an array of strings
 
 Use sentinel linear search to find a string in an array of strings.
 
@@ -31,8 +31,7 @@ Use sentinel search to find an element.
 Demonstrate why restoring last element is important.
 Write code that prints array BEFORE and AFTER.
 
-🔴 Advanced (8–10)
-8. Implement sentinel search on a linked list
+🔴 Advanced (8–10) 8. Implement sentinel search on a linked list
 
 (Manually create a sentinel node at end, then restore)
 

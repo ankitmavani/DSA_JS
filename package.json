@@ -1,0 +1,28 @@
+{
+  "name": "dsa_js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node scripts/generate.js",
+    "progress": "node scripts/readme.js",
+    "track": "node scripts/track.js",
+    "format": "prettier --write ."
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "eslint",
+      "node scripts/readme.js"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "eslint": "^10.1.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.4.0",
+    "prettier": "^3.8.1"
+  }
+}
