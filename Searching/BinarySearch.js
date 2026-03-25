@@ -15,6 +15,8 @@ function binaryInterativeSearch(arr, target) {
   return -1;
 }
 
+binaryInterativeSearch();
+
 function binarySearch(arr, target, left, right) {
   let mid = left + Math.floor((right - left) / 2);
   if (left > right) {

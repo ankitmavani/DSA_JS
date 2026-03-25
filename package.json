@@ -2,6 +2,7 @@
   "name": "dsa_js",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
     "generate": "node scripts/generate.js",
     "progress": "node scripts/readme.js",

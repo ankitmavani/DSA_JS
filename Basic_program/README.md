@@ -1,17 +1,16 @@
 # 📊 Overall Progress
 
-✅ 0/117
+✅ 1/117
 
-📈 0%
+📈 1%
 
 ```
-░░░░░░░░░░ 0%
+░░░░░░░░░ 1%
 ```
 
 # 🚀 DSA Progress Dashboard
 
 ## 📂 break_continue
-
 Progress: 0/7 (0%)
 
 - [ ] 01_stop_at_number_divisible_by_17.js
@@ -23,7 +22,6 @@ Progress: 0/7 (0%)
 - [ ] 07_stop_when_sum_100.js
 
 ## 📂 do_while_loop
-
 Progress: 0/15 (0%)
 
 - [ ] 01_print_numbers_from_1_to_10.js
@@ -43,7 +41,6 @@ Progress: 0/15 (0%)
 - [ ] 15_sum_of_even_and_odd_digits_separately.js
 
 ## 📂 for_loop
-
 Progress: 0/21 (0%)
 
 - [ ] 01_print_numbers_from_1_to_10.js
@@ -69,7 +66,6 @@ Progress: 0/21 (0%)
 - [ ] 21_sum_of_odd_numbers.js
 
 ## 📂 mathematical_series
-
 Progress: 0/15 (0%)
 
 - [ ] 01_sum_of_first_n_natural_numbers.js
@@ -89,7 +85,6 @@ Progress: 0/15 (0%)
 - [ ] 15_check_strong_number.js
 
 ## 📂 mixed_problems
-
 Progress: 0/10 (0%)
 
 - [ ] 01_numbers_with_even_digit_sum.js
@@ -104,11 +99,10 @@ Progress: 0/10 (0%)
 - [ ] 10_max_digit_sum_number.js
 
 ## 📂 nested_loop
-
 Progress: 0/8 (0%)
 
 - [ ] 01_multiplication_tables_from_1_to_10.js
-- [ ] 02*all_pairs_i_j*.js
+- [ ] 02_all_pairs_i_j_.js
 - [ ] 03_count_factors_for_each_number.js
 - [ ] 04_prime_numbers_using_nested_loop.js
 - [ ] 05_fibonacci_pattern.js
@@ -117,7 +111,6 @@ Progress: 0/8 (0%)
 - [ ] 08_pythagorean_triplets.js
 
 ## 📂 star_patterns
-
 Progress: 0/12 (0%)
 
 - [ ] 01_single_star.js
@@ -134,10 +127,9 @@ Progress: 0/12 (0%)
 - [ ] 12_repeated_numbers_pattern.js
 
 ## 📂 while_loop
+Progress: 1/29 (3%)
 
-Progress: 0/29 (0%)
-
-- [ ] 01_print_all_numbers_from_1_to_10_using_a_loop.js
+- [x] 01_print_all_numbers_from_1_to_10_using_a_loop.js
 - [ ] 02_print_numbers_from_10_down_to_1_in_reverse_order.js
 - [ ] 03_print_all_even_numbers_between_1_and_100.js
 - [ ] 04_print_all_odd_numbers_between_1_and_100.js
@@ -166,3 +158,4 @@ Progress: 0/29 (0%)
 - [ ] 27_find_lcm_of_two_numbers.js
 - [ ] 28_smallest_digit_in_number.js
 - [ ] 29_largest_digit_in_number.js
+

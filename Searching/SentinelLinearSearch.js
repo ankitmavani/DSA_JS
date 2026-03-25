@@ -16,7 +16,7 @@ function SentinelLinearSearch(arr, target) {
 }
 
 var arr = [10, 20, 180, 30, 60, 50, 110, 100, 70];
-var n = arr.length;
-var key = 180;
+// var n = arr.length;
+// var key = 180;
 
 console.log(SentinelLinearSearch(arr, 70));

@@ -10,15 +10,14 @@ function solve() {
   let i = 1;
   let output = '';
 
-  while(i<=10){
-    output+=i
+  while (i <= 10) {
+    output += i;
 
-
-    if(i<10) output+=" "
-    i++
+    if (i < 10) output += ' ';
+    i++;
   }
 
-  console.log(output)
+  console.log(output);
 }
 
 solve();
