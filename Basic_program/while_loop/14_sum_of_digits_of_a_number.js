@@ -7,12 +7,12 @@
 
 function solve(n) {
   // TODO: implement
-  let sum_number = 0
-  while(n){
-    sum_number+=(n%10)
-    n=parseInt(n/10)
+  let sum_number = 0;
+  while (n) {
+    sum_number += n % 10;
+    n = parseInt(n / 10);
   }
-  console.log(sum_number)
+  console.log(sum_number);
 }
 
 solve(123456789);

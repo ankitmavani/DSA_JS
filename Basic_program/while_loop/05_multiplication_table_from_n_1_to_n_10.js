@@ -7,10 +7,10 @@
 
 function solve(n) {
   // TODO: implement
-  let index = 1
-  while(index<=10){
-    console.log(`${n} * ${index} = ${index * n}`)
-    index++
+  let index = 1;
+  while (index <= 10) {
+    console.log(`${n} * ${index} = ${index * n}`);
+    index++;
   }
 }
 

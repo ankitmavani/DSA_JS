@@ -7,22 +7,22 @@
 
 function solve(term) {
   // TODO: implement
-  let fibo = []
-  let n0 = 0
-  let n1 = 1
-  let index = 1
-  while(index < term) {
-    if(index === 1) fibo.push(n0)
-    if(index === 2) fibo.push(n1)
+  let fibo = [];
+  let n0 = 0;
+  let n1 = 1;
+  let index = 1;
+  while (index < term) {
+    if (index === 1) fibo.push(n0);
+    if (index === 2) fibo.push(n1);
     else {
-      let curr = n0+n1
-      fibo.push(n0+n1)
-      n0 = n1
-      n1 = curr
+      let curr = n0 + n1;
+      fibo.push(n0 + n1);
+      n0 = n1;
+      n1 = curr;
     }
-    index++
+    index++;
   }
-  console.log(fibo)
+  console.log(fibo);
 }
 
 solve(5);

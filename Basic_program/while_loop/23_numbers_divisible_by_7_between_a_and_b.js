@@ -7,15 +7,15 @@
 
 function solve(a, b) {
   // TODO: implement
-  let index = a
-  let series = ''
-  while(index <= b){
-    if(index % 7 === 0){
-      series += index + ' '
+  let index = a;
+  let series = '';
+  while (index <= b) {
+    if (index % 7 === 0) {
+      series += index + ' ';
     }
-    index++
+    index++;
   }
-  console.log(series)
+  console.log(series);
 }
 
 solve(1, 100);

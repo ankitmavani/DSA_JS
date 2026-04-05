@@ -7,12 +7,12 @@
 
 function solve(n) {
   // TODO: implement
-  let count = 0
-  while(n){
-    count++
-    n=parseInt(n/10)
+  let count = 0;
+  while (n) {
+    count++;
+    n = parseInt(n / 10);
   }
-  console.log(count)
+  console.log(count);
 }
 
 solve(123123);

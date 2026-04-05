@@ -7,33 +7,33 @@
 
 function solve(a, b) {
   // TODO: implement
-  let min = a > b?a:b
-  while(true){
-    if(min%a===0 && min %b===0){
-      console.log(min)
-      break
+  let min = a > b ? a : b;
+  while (true) {
+    if (min % a === 0 && min % b === 0) {
+      console.log(min);
+      break;
     }
-    min++
+    min++;
   }
 }
 
 function HCF(a, b) {
   // TODO: implement
-  let smaller = a<b?a:b
-  let index = 1
-  let hcf
-  while(index <= smaller){
-    if(a % index === 0 && b%index === 0){
-      hcf = index
+  let smaller = a < b ? a : b;
+  let index = 1;
+  let hcf;
+  while (index <= smaller) {
+    if (a % index === 0 && b % index === 0) {
+      hcf = index;
     }
-    index++
+    index++;
   }
-  return hcf
+  return hcf;
 }
 
-function LCMUsingHCF(a, b){
-  console.log((a*b)/HCF(a,b))
+function LCMUsingHCF(a, b) {
+  console.log((a * b) / HCF(a, b));
 }
 
-// solve(6, 8);
-LCMUsingHCF(18, 24)
+solve(6, 8);
+LCMUsingHCF(18, 24);

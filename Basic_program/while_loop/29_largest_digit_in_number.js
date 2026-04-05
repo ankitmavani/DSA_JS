@@ -7,14 +7,14 @@
 
 function solve(num) {
   // TODO: implement
-  let largest_num = parseInt(num % 10)
-  while(num){
-    if(parseInt(num%10) > largest_num){
-      largest_num = parseInt(num%10)
+  let largest_num = parseInt(num % 10);
+  while (num) {
+    if (parseInt(num % 10) > largest_num) {
+      largest_num = parseInt(num % 10);
     }
-    num = parseInt(num/10)
+    num = parseInt(num / 10);
   }
-  console.log(largest_num)
+  console.log(largest_num);
 }
 
 solve(765364);

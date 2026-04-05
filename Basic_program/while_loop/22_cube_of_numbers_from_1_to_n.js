@@ -7,13 +7,13 @@
 
 function solve(num) {
   // TODO: implement
-  let index = 1
-  let series = ''
-  while (index<= num) {
-    series += index * index * index + ' '
-    index++
+  let index = 1;
+  let series = '';
+  while (index <= num) {
+    series += index * index * index + ' ';
+    index++;
   }
-  console.log(series)
+  console.log(series);
 }
 
 solve(10);

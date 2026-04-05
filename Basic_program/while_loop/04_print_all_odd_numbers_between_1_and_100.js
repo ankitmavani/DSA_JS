@@ -8,11 +8,11 @@
 function solve() {
   // TODO: implement
   let index = 1;
-  while(index<=100){
-    if(index%2!==0){
-      console.log(index)
+  while (index <= 100) {
+    if (index % 2 !== 0) {
+      console.log(index);
     }
-    index++
+    index++;
   }
 }
 

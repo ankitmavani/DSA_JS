@@ -7,19 +7,19 @@
 
 function solve(num) {
   // TODO: implement
-  let index = 2
-  let factor = '1 '
-  while (index * index <= num){
-    if(num%index === 0){
-      factor+=index + ' '
-      if(num/index !== index){
-        factor += num/ index +' '
+  let index = 2;
+  let factor = '1 ';
+  while (index * index <= num) {
+    if (num % index === 0) {
+      factor += index + ' ';
+      if (num / index !== index) {
+        factor += num / index + ' ';
       }
     }
-    index++
+    index++;
   }
-  factor+=num
-  console.log(factor)
+  factor += num;
+  console.log(factor);
 }
 
 solve(15);

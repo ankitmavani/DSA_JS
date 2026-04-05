@@ -7,13 +7,13 @@
 
 function solve(n) {
   // TODO: implement
-  let sum = 0
-  let index = 1
-  while(index<=n){
-    sum+=index
-    index++
+  let sum = 0;
+  let index = 1;
+  while (index <= n) {
+    sum += index;
+    index++;
   }
-  console.log(sum)
+  console.log(sum);
 }
 
 solve(9);

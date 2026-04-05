@@ -7,13 +7,13 @@
 
 function solve(n) {
   // TODO: implement
-  let index = 1
-  let facto = 1
-  while(index<=n){
-    facto *= index
-    index++
+  let index = 1;
+  let facto = 1;
+  while (index <= n) {
+    facto *= index;
+    index++;
   }
-  console.log(facto)
+  console.log(facto);
 }
 
 solve(5);

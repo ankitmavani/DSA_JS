@@ -1,11 +1,11 @@
 # 📊 Overall Progress
 
-✅ 2/117
+✅ 28/117
 
-📈 2%
+📈 24%
 
 ```
-░░░░░░░░░ 2%
+██░░░░░░░ 24%
 ```
 
 # 🚀 DSA Progress Dashboard
@@ -127,35 +127,35 @@ Progress: 0/12 (0%)
 - [ ] 12_repeated_numbers_pattern.js
 
 ## 📂 while_loop
-Progress: 2/29 (7%)
+Progress: 28/29 (97%)
 
 - [x] 01_print_all_numbers_from_1_to_10_using_a_loop.js
 - [x] 02_print_numbers_from_10_down_to_1_in_reverse_order.js
-- [ ] 03_print_all_even_numbers_between_1_and_100.js
-- [ ] 04_print_all_odd_numbers_between_1_and_100.js
-- [ ] 05_multiplication_table_from_n_1_to_n_10.js
-- [ ] 06_sum_of_first_n_natural_numbers.js
+- [x] 03_print_all_even_numbers_between_1_and_100.js
+- [x] 04_print_all_odd_numbers_between_1_and_100.js
+- [x] 05_multiplication_table_from_n_1_to_n_10.js
+- [x] 06_sum_of_first_n_natural_numbers.js
 - [ ] 07_sum_of_even_numbers_up_to_n.js
-- [ ] 08_sum_of_odd_numbers_up_to_n.js
-- [ ] 09_factorial_of_a_number.js
-- [ ] 10_product_of_digits_of_a_number.js
-- [ ] 11_count_digits_of_a_number.js
-- [ ] 12_reverse_a_number.js
-- [ ] 13_check_palindrome_number.js
-- [ ] 14_sum_of_digits_of_a_number.js
-- [ ] 15_check_armstrong_number.js
-- [ ] 16_check_perfect_number.js
-- [ ] 17_print_prime_numbers_from_1_to_100.js
-- [ ] 18_check_prime_number.js
-- [ ] 19_fibonacci_series_up_to_n_terms.js
-- [ ] 20_sum_of_fibonacci_series.js
-- [ ] 21_square_of_numbers_from_1_to_n.js
-- [ ] 22_cube_of_numbers_from_1_to_n.js
-- [ ] 23_numbers_divisible_by_7_between_a_and_b.js
-- [ ] 24_print_all_factors_of_a_number.js
-- [ ] 25_sum_of_all_factors.js
-- [ ] 26_find_hcf_of_two_numbers.js
-- [ ] 27_find_lcm_of_two_numbers.js
-- [ ] 28_smallest_digit_in_number.js
-- [ ] 29_largest_digit_in_number.js
+- [x] 08_sum_of_odd_numbers_up_to_n.js
+- [x] 09_factorial_of_a_number.js
+- [x] 10_product_of_digits_of_a_number.js
+- [x] 11_count_digits_of_a_number.js
+- [x] 12_reverse_a_number.js
+- [x] 13_check_palindrome_number.js
+- [x] 14_sum_of_digits_of_a_number.js
+- [x] 15_check_armstrong_number.js
+- [x] 16_check_perfect_number.js
+- [x] 17_print_prime_numbers_from_1_to_100.js
+- [x] 18_check_prime_number.js
+- [x] 19_fibonacci_series_up_to_n_terms.js
+- [x] 20_sum_of_fibonacci_series.js
+- [x] 21_square_of_numbers_from_1_to_n.js
+- [x] 22_cube_of_numbers_from_1_to_n.js
+- [x] 23_numbers_divisible_by_7_between_a_and_b.js
+- [x] 24_print_all_factors_of_a_number.js
+- [x] 25_sum_of_all_factors.js
+- [x] 26_find_hcf_of_two_numbers.js
+- [x] 27_find_lcm_of_two_numbers.js
+- [x] 28_smallest_digit_in_number.js
+- [x] 29_largest_digit_in_number.js
 
