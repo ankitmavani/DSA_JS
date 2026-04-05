@@ -2,11 +2,17 @@
 // Problem: Reverse a number
 // Category: while_loop
 // Difficulty: Easy
-// Status: ❌ Not Solved
+// Status: ✅ Solved
 // ==========================================
 
-function solve() {
+function solve(n) {
   // TODO: implement
+  let reverse_number = 0
+  while(n){
+    reverse_number=reverse_number*10+(n%10)
+    n=parseInt(n/10)
+  }
+  console.log(reverse_number)
 }
 
-solve();
+solve(453453);

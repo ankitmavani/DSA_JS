@@ -2,11 +2,27 @@
 // Problem: Fibonacci series up to n terms
 // Category: while_loop
 // Difficulty: Easy
-// Status: ❌ Not Solved
+// Status: ✅ Solved
 // ==========================================
 
-function solve() {
+function solve(term) {
   // TODO: implement
+  let fibo = []
+  let n0 = 0
+  let n1 = 1
+  let index = 1
+  while(index < term) {
+    if(index === 1) fibo.push(n0)
+    if(index === 2) fibo.push(n1)
+    else {
+      let curr = n0+n1
+      fibo.push(n0+n1)
+      n0 = n1
+      n1 = curr
+    }
+    index++
+  }
+  console.log(fibo)
 }
 
-solve();
+solve(5);

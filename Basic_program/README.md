@@ -1,11 +1,11 @@
 # 📊 Overall Progress
 
-✅ 1/117
+✅ 2/117
 
-📈 1%
+📈 2%
 
 ```
-░░░░░░░░░ 1%
+░░░░░░░░░ 2%
 ```
 
 # 🚀 DSA Progress Dashboard
@@ -127,10 +127,10 @@ Progress: 0/12 (0%)
 - [ ] 12_repeated_numbers_pattern.js
 
 ## 📂 while_loop
-Progress: 1/29 (3%)
+Progress: 2/29 (7%)
 
 - [x] 01_print_all_numbers_from_1_to_10_using_a_loop.js
-- [ ] 02_print_numbers_from_10_down_to_1_in_reverse_order.js
+- [x] 02_print_numbers_from_10_down_to_1_in_reverse_order.js
 - [ ] 03_print_all_even_numbers_between_1_and_100.js
 - [ ] 04_print_all_odd_numbers_between_1_and_100.js
 - [ ] 05_multiplication_table_from_n_1_to_n_10.js

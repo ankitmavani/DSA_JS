@@ -2,11 +2,18 @@
 // Problem: Factorial of a number
 // Category: while_loop
 // Difficulty: Easy
-// Status: ❌ Not Solved
+// Status: ✅ Solved
 // ==========================================
 
-function solve() {
+function solve(n) {
   // TODO: implement
+  let index = 1
+  let facto = 1
+  while(index<=n){
+    facto *= index
+    index++
+  }
+  console.log(facto)
 }
 
-solve();
+solve(5);
