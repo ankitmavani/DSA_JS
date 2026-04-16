@@ -1,9 +1,8 @@
-const SinglyLinkedList = require('../src/core/SinglyLinkedList')
+const SinglyLinkedList = require('../src/core/SinglyLinkedList');
 
-describe("LinkedList Insert Methods", () => {
-
+describe('LinkedList Insert Methods', () => {
   // 🔹 insertAtHead
-  test("insertAtHead - multiple inserts", () => {
+  test('insertAtHead - multiple inserts', () => {
     const list = new SinglyLinkedList();
 
     list.insertAtHead(10);
@@ -14,7 +13,7 @@ describe("LinkedList Insert Methods", () => {
   });
 
   // 🔹 insertAtTail
-  test("insertAtTail - multiple inserts", () => {
+  test('insertAtTail - multiple inserts', () => {
     const list = new SinglyLinkedList();
 
     list.insertAtTail(10);
@@ -25,7 +24,7 @@ describe("LinkedList Insert Methods", () => {
   });
 
   // 🔹 insertAtPosition
-  test("insertAtPosition - insert at head", () => {
+  test('insertAtPosition - insert at head', () => {
     const list = new SinglyLinkedList();
 
     list.insertAtTail(10);
@@ -36,7 +35,7 @@ describe("LinkedList Insert Methods", () => {
     expect(list.toArray()).toEqual([5, 10, 20]);
   });
 
-  test("insertAtPosition - insert in middle", () => {
+  test('insertAtPosition - insert in middle', () => {
     const list = new SinglyLinkedList();
 
     list.insertAtTail(10);
@@ -48,7 +47,7 @@ describe("LinkedList Insert Methods", () => {
     expect(list.toArray()).toEqual([10, 15, 20, 30]);
   });
 
-  test("insertAtPosition - insert at end", () => {
+  test('insertAtPosition - insert at end', () => {
     const list = new SinglyLinkedList();
 
     list.insertAtTail(10);
@@ -60,7 +59,7 @@ describe("LinkedList Insert Methods", () => {
   });
 
   // 🔹 insertAfterValue
-  test("insertAfterValue - normal case", () => {
+  test('insertAfterValue - normal case', () => {
     const list = new SinglyLinkedList();
 
     list.insertAtTail(10);
@@ -71,7 +70,7 @@ describe("LinkedList Insert Methods", () => {
     expect(list.toArray()).toEqual([10, 15, 20]);
   });
 
-  test("insertAfterValue - value not found", () => {
+  test('insertAfterValue - value not found', () => {
     const list = new SinglyLinkedList();
 
     list.insertAtTail(10);
@@ -82,7 +81,7 @@ describe("LinkedList Insert Methods", () => {
   });
 
   // 🔹 insertBeforeValue
-  test("insertBeforeValue - middle", () => {
+  test('insertBeforeValue - middle', () => {
     const list = new SinglyLinkedList();
 
     list.insertAtTail(10);
@@ -93,7 +92,7 @@ describe("LinkedList Insert Methods", () => {
     expect(list.toArray()).toEqual([10, 15, 20]);
   });
 
-  test("insertBeforeValue - before head", () => {
+  test('insertBeforeValue - before head', () => {
     const list = new SinglyLinkedList();
 
     list.insertAtTail(10);
@@ -103,7 +102,7 @@ describe("LinkedList Insert Methods", () => {
     expect(list.toArray()).toEqual([5, 10]);
   });
 
-  test("insertBeforeValue - value not found", () => {
+  test('insertBeforeValue - value not found', () => {
     const list = new SinglyLinkedList();
 
     list.insertAtTail(10);
@@ -112,13 +111,11 @@ describe("LinkedList Insert Methods", () => {
 
     expect(list.toArray()).toEqual([10]); // no change
   });
-
 });
 
-describe("LinkedList Delete Methods", () => {
-
+describe('LinkedList Delete Methods', () => {
   // 🔹 deleteHead
-  test("deleteHead - normal case", () => {
+  test('deleteHead - normal case', () => {
     const list = new SinglyLinkedList();
 
     list.insertAtTail(10);
@@ -130,7 +127,7 @@ describe("LinkedList Delete Methods", () => {
     expect(list.toArray()).toEqual([20, 30]);
   });
 
-  test("deleteHead - single element", () => {
+  test('deleteHead - single element', () => {
     const list = new SinglyLinkedList();
 
     list.insertAtTail(10);
@@ -139,7 +136,7 @@ describe("LinkedList Delete Methods", () => {
     expect(list.toArray()).toEqual([]);
   });
 
-  test("deleteHead - empty list", () => {
+  test('deleteHead - empty list', () => {
     const list = new SinglyLinkedList();
 
     list.deleteHead();
@@ -148,7 +145,7 @@ describe("LinkedList Delete Methods", () => {
   });
 
   // 🔹 deleteTail
-  test("deleteTail - normal case", () => {
+  test('deleteTail - normal case', () => {
     const list = new SinglyLinkedList();
 
     list.insertAtTail(10);
@@ -160,7 +157,7 @@ describe("LinkedList Delete Methods", () => {
     expect(list.toArray()).toEqual([10, 20]);
   });
 
-  test("deleteTail - single element", () => {
+  test('deleteTail - single element', () => {
     const list = new SinglyLinkedList();
 
     list.insertAtTail(10);
@@ -169,7 +166,7 @@ describe("LinkedList Delete Methods", () => {
     expect(list.toArray()).toEqual([]);
   });
 
-  test("deleteTail - empty list", () => {
+  test('deleteTail - empty list', () => {
     const list = new SinglyLinkedList();
 
     list.deleteTail();
@@ -178,7 +175,7 @@ describe("LinkedList Delete Methods", () => {
   });
 
   // 🔹 deleteByValue
-  test("deleteByValue - middle node", () => {
+  test('deleteByValue - middle node', () => {
     const list = new SinglyLinkedList();
 
     list.insertAtTail(10);
@@ -190,7 +187,7 @@ describe("LinkedList Delete Methods", () => {
     expect(list.toArray()).toEqual([10, 30]);
   });
 
-  test("deleteByValue - head node", () => {
+  test('deleteByValue - head node', () => {
     const list = new SinglyLinkedList();
 
     list.insertAtTail(10);
@@ -201,7 +198,7 @@ describe("LinkedList Delete Methods", () => {
     expect(list.toArray()).toEqual([20]);
   });
 
-  test("deleteByValue - value not found", () => {
+  test('deleteByValue - value not found', () => {
     const list = new SinglyLinkedList();
 
     list.insertAtTail(10);
@@ -212,7 +209,7 @@ describe("LinkedList Delete Methods", () => {
   });
 
   // 🔹 deleteAtPosition
-  test("deleteAtPosition - delete head", () => {
+  test('deleteAtPosition - delete head', () => {
     const list = new SinglyLinkedList();
 
     list.insertAtTail(10);
@@ -223,7 +220,7 @@ describe("LinkedList Delete Methods", () => {
     expect(list.toArray()).toEqual([20]);
   });
 
-  test("deleteAtPosition - middle", () => {
+  test('deleteAtPosition - middle', () => {
     const list = new SinglyLinkedList();
 
     list.insertAtTail(10);
@@ -235,7 +232,7 @@ describe("LinkedList Delete Methods", () => {
     expect(list.toArray()).toEqual([10, 30]);
   });
 
-  test("deleteAtPosition - last node", () => {
+  test('deleteAtPosition - last node', () => {
     const list = new SinglyLinkedList();
 
     list.insertAtTail(10);
@@ -246,7 +243,7 @@ describe("LinkedList Delete Methods", () => {
     expect(list.toArray()).toEqual([10]);
   });
 
-  test("deleteAtPosition - invalid index", () => {
+  test('deleteAtPosition - invalid index', () => {
     const list = new SinglyLinkedList();
 
     list.insertAtTail(10);
@@ -255,5 +252,4 @@ describe("LinkedList Delete Methods", () => {
 
     expect(list.toArray()).toEqual([10]); // no change
   });
-
 });
