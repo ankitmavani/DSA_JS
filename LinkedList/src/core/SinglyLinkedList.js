@@ -129,6 +129,79 @@ class SinglyLinkedList {
     }
   }
 
+  reverse() {
+    if (!this.head) {
+      return;
+    }
+    let cur_node = this.head;
+    let prev_node = null;
+    let next_node = cur_node.next;
+
+    while (next_node) {
+      cur_node.next = prev_node;
+      prev_node = cur_node;
+      cur_node = next_node;
+      next_node = next_node.next;
+    }
+    cur_node.next = prev_node;
+    this.head = cur_node;
+  }
+
+  findMiddle() {
+    if (!this.head || !this.head.next) {
+      return this.head;
+    }
+    let slow = this.head;
+    let fast = this.head;
+    while (fast.next && fast.next.next) {
+      slow = slow.next;
+      fast = fast.next.next;
+    }
+    if (fast.next) {
+      return slow.next;
+    }
+    return slow;
+  }
+
+  detectCycle() {
+    if (!this.head || !this.head.next) {
+      return false;
+    }
+    let slow = this.head;
+    let fast = this.head.next;
+    while (fast.next && fast.next.next) {
+      if (slow === fast) {
+        return true;
+      }
+      slow = slow.next;
+      fast = fast.next.next;
+    }
+    return false;
+  }
+
+  removeCycle() {
+    let slow = this.head;
+    let fast = this.head;
+    while (fast.next && fast.next.next) {
+      if (slow === fast) {
+        break;
+      }
+      // slow_prev = slow
+      slow = slow.next;
+      fast = fast.next.next;
+    }
+    slow = this.head;
+    while (slow.next !== fast.next) {
+      slow = slow.next;
+      fast = fast.next;
+    }
+    fast.next = null;
+  }
+
+  nthFromEnd(nth) {}
+
+  removeNthFromEnd(nth) {}
+
   length() {
     let temp = this.head;
     let count = 0;
