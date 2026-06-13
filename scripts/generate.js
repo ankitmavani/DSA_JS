@@ -4,7 +4,7 @@ const path = require('path');
 const basePath = './Basic_program'; // ✅ FIXED NAME
 
 const phases = {
-  while_loop: [
+  phase_01_while_loop: [
     'Print all numbers from 1 to 10 using a loop',
     'Print numbers from 10 down to 1 in reverse order',
     'Print all even numbers between 1 and 100',
@@ -36,7 +36,7 @@ const phases = {
     'Largest digit in number',
   ],
 
-  do_while_loop: [
+  phase_02_do_while_loop: [
     'Print numbers from 1 to 10',
     'Multiplication table',
     'Sum until user enters 0',
@@ -54,7 +54,7 @@ const phases = {
     'Sum of even and odd digits separately',
   ],
 
-  for_loop: [
+  phase_03_for_loop: [
     'Print numbers from 1 to 10',
     'Print numbers from 10 to 1',
     'Even numbers 1 to 100',
@@ -78,7 +78,7 @@ const phases = {
     'Sum of odd numbers',
   ],
 
-  nested_loop: [
+  phase_04_nested_loop: [
     'Multiplication tables from 1 to 10',
     'All pairs (i, j)',
     'Count factors for each number',
@@ -89,7 +89,7 @@ const phases = {
     'Pythagorean triplets',
   ],
 
-  break_continue: [
+  phase_05_break_continue: [
     'Stop at number divisible by 17',
     'Skip numbers divisible by 5',
     'Skip zero and sum input',
@@ -99,7 +99,7 @@ const phases = {
     'Stop when sum > 100',
   ],
 
-  mathematical_series: [
+  phase_06_mathematical_series: [
     'Sum of first n natural numbers',
     'Sum of first n even numbers',
     'Sum of first n odd numbers',
@@ -117,7 +117,7 @@ const phases = {
     'Check Strong number',
   ],
 
-  mixed_problems: [
+  phase_07_mixed_problems: [
     'Numbers with even digit sum',
     'Count numbers divisible by 7 not 5',
     'Palindrome numbers 1 to 500',
@@ -130,7 +130,7 @@ const phases = {
     'Max digit sum number',
   ],
 
-  star_patterns: [
+  phase_08_star_patterns: [
     'Single star',
     'Four stars',
     'n stars in a line',
