@@ -2,11 +2,12 @@
 // Problem: Power of two series
 // Category: mathematical_series
 // Difficulty: Easy
-// Status: ❌ Not Solved
+// Status: ✅ Solved
 // ==========================================
 
-function solve() {
+function solve(num) {
   // TODO: implement
+  console.log(Math.pow(2, num + 1) - 1);
 }
 
-solve();
+solve(5);

@@ -2,11 +2,12 @@
 // Problem: Sum of cubes series
 // Category: mathematical_series
 // Difficulty: Easy
-// Status: ❌ Not Solved
+// Status: ✅ Solved
 // ==========================================
 
-function solve() {
+function solve(num) {
   // TODO: implement
+  return Math.pow((num * (num + 1)) / 2, 2);
 }
 
-solve();
+console.log(solve(5));
