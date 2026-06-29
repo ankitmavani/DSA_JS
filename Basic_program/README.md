@@ -1,17 +1,17 @@
 # 📊 Overall Progress
 
-✅ 64/117
+✅ 65/117
 
-📈 55%
+📈 56%
 
 ```
-█████░░░░ 55%
+█████░░░░ 56%
 ```
 
 # 🚀 DSA Progress Dashboard
 
 ## 📂 phase_01_while_loop
-Progress: 28/29 (97%)
+Progress: 29/29 (100%)
 
 - [x] 01_print_all_numbers_from_1_to_10_using_a_loop.js
 - [x] 02_print_numbers_from_10_down_to_1_in_reverse_order.js
@@ -19,7 +19,7 @@ Progress: 28/29 (97%)
 - [x] 04_print_all_odd_numbers_between_1_and_100.js
 - [x] 05_multiplication_table_from_n_1_to_n_10.js
 - [x] 06_sum_of_first_n_natural_numbers.js
-- [ ] 07_sum_of_even_numbers_up_to_n.js
+- [x] 07_sum_of_even_numbers_up_to_n.js
 - [x] 08_sum_of_odd_numbers_up_to_n.js
 - [x] 09_factorial_of_a_number.js
 - [x] 10_product_of_digits_of_a_number.js
