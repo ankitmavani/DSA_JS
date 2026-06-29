@@ -2,11 +2,18 @@
 // Problem: Increasing triangle
 // Category: star_patterns
 // Difficulty: Easy
-// Status: ❌ Not Solved
+// Status: ✅ Solved
 // ==========================================
 
-function solve() {
+function solve(num) {
   // TODO: implement
+  for (let index_i = 0; index_i < num; index_i++) {
+    let row = '';
+    for (let index_j = 0; index_j < index_i + 1; index_j++) {
+      row += '* ';
+    }
+    console.log(row);
+  }
 }
 
-solve();
+solve(5);
