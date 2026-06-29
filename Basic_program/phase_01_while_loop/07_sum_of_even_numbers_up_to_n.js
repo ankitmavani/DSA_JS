@@ -2,7 +2,7 @@
 // Problem: Sum of even numbers up to n
 // Category: while_loop
 // Difficulty: Easy
-// Status:✅ Solved
+// Status: ✅ Solved
 // ==========================================
 
 function solve(n) {
