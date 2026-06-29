@@ -5,7 +5,7 @@
 // Status: ✅ Solved
 // ==========================================
 
-function solve(n) {
+function solve() {
   // TODO: implement
   let index = 1;
   do {
@@ -14,4 +14,4 @@ function solve(n) {
   } while (index <= 10);
 }
 
-solve(10);
+solve();

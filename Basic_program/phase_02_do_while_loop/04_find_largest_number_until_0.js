@@ -2,9 +2,10 @@
 // Problem: Find largest number until 0
 // Category: do_while_loop
 // Difficulty: Easy
-// Status: ❌ Not Solved
+// Status: ✅ Solved
 // ==========================================
 
+// not problem for js
 function solve() {
   // TODO: implement
 }

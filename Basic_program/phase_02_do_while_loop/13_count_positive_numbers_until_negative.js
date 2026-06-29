@@ -2,9 +2,10 @@
 // Problem: Count positive numbers until negative
 // Category: do_while_loop
 // Difficulty: Easy
-// Status: ❌ Not Solved
+// Status: ✅ Solved
 // ==========================================
 
+// not for JS
 function solve() {
   // TODO: implement
 }

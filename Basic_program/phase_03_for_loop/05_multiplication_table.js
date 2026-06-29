@@ -2,11 +2,14 @@
 // Problem: Multiplication table
 // Category: for_loop
 // Difficulty: Easy
-// Status: ❌ Not Solved
+// Status: ✅ Solved
 // ==========================================
 
-function solve() {
+function solve(n) {
   // TODO: implement
+  for (let index = 1; index <= 10; index++) {
+    console.log(`${n}*${index}=${n * index}`);
+  }
 }
 
-solve();
+solve(6);
