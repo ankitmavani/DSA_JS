@@ -1,11 +1,11 @@
 # 📊 Overall Progress
 
-✅ 65/117
+✅ 105/117
 
-📈 56%
+📈 90%
 
 ```
-█████░░░░ 56%
+█████████░ 90%
 ```
 
 # 🚀 DSA Progress Dashboard
@@ -88,60 +88,60 @@ Progress: 21/21 (100%)
 - [x] 21_sum_of_odd_numbers.js
 
 ## 📂 phase_04_nested_loop
-Progress: 0/8 (0%)
+Progress: 8/8 (100%)
 
-- [ ] 01_multiplication_tables_from_1_to_10.js
-- [ ] 02_all_pairs_i_j_.js
-- [ ] 03_count_factors_for_each_number.js
-- [ ] 04_prime_numbers_using_nested_loop.js
-- [ ] 05_fibonacci_pattern.js
-- [ ] 06_number_triangle_pattern.js
-- [ ] 07_matrix_row_and_column_sum.js
-- [ ] 08_pythagorean_triplets.js
+- [x] 01_multiplication_tables_from_1_to_10.js
+- [x] 02_all_pairs_i_j_.js
+- [x] 03_count_factors_for_each_number.js
+- [x] 04_prime_numbers_using_nested_loop.js
+- [x] 05_fibonacci_pattern.js
+- [x] 06_number_triangle_pattern.js
+- [x] 07_matrix_row_and_column_sum.js
+- [x] 08_pythagorean_triplets.js
 
 ## 📂 phase_05_break_continue
-Progress: 0/7 (0%)
+Progress: 7/7 (100%)
 
-- [ ] 01_stop_at_number_divisible_by_17.js
-- [ ] 02_skip_numbers_divisible_by_5.js
-- [ ] 03_skip_zero_and_sum_input.js
-- [ ] 04_search_element_and_break.js
-- [ ] 05_stop_at_negative_number.js
-- [ ] 06_print_only_even_numbers.js
-- [ ] 07_stop_when_sum_100.js
+- [x] 01_stop_at_number_divisible_by_17.js
+- [x] 02_skip_numbers_divisible_by_5.js
+- [x] 03_skip_zero_and_sum_input.js
+- [x] 04_search_element_and_break.js
+- [x] 05_stop_at_negative_number.js
+- [x] 06_print_only_even_numbers.js
+- [x] 07_stop_when_sum_100.js
 
 ## 📂 phase_06_mathematical_series
-Progress: 0/15 (0%)
+Progress: 15/15 (100%)
 
-- [ ] 01_sum_of_first_n_natural_numbers.js
-- [ ] 02_sum_of_first_n_even_numbers.js
-- [ ] 03_sum_of_first_n_odd_numbers.js
-- [ ] 04_arithmetic_progression.js
-- [ ] 05_geometric_progression.js
-- [ ] 06_fibonacci_series.js
-- [ ] 07_sum_of_fibonacci.js
-- [ ] 08_sum_of_squares_series.js
-- [ ] 09_sum_of_cubes_series.js
-- [ ] 10_harmonic_series.js
-- [ ] 11_power_of_two_series.js
-- [ ] 12_sum_of_factorial_series.js
-- [ ] 13_x_power_series.js
-- [ ] 14_alternate_factorial_series.js
-- [ ] 15_check_strong_number.js
+- [x] 01_sum_of_first_n_natural_numbers.js
+- [x] 02_sum_of_first_n_even_numbers.js
+- [x] 03_sum_of_first_n_odd_numbers.js
+- [x] 04_arithmetic_progression.js
+- [x] 05_geometric_progression.js
+- [x] 06_fibonacci_series.js
+- [x] 07_sum_of_fibonacci.js
+- [x] 08_sum_of_squares_series.js
+- [x] 09_sum_of_cubes_series.js
+- [x] 10_harmonic_series.js
+- [x] 11_power_of_two_series.js
+- [x] 12_sum_of_factorial_series.js
+- [x] 13_x_power_series.js
+- [x] 14_alternate_factorial_series.js
+- [x] 15_check_strong_number.js
 
 ## 📂 phase_07_mixed_problems
-Progress: 0/10 (0%)
+Progress: 10/10 (100%)
 
-- [ ] 01_numbers_with_even_digit_sum.js
-- [ ] 02_count_numbers_divisible_by_7_not_5.js
-- [ ] 03_palindrome_numbers_1_to_500.js
-- [ ] 04_numbers_with_digit_sum_multiple_of_3.js
-- [ ] 05_binary_numbers_with_even_1s.js
-- [ ] 06_square_pattern_i_i.js
-- [ ] 07_sum_of_odd_and_even_digits.js
-- [ ] 08_armstrong_numbers_1_to_1000.js
-- [ ] 09_perfect_numbers_1_to_1000.js
-- [ ] 10_max_digit_sum_number.js
+- [x] 01_numbers_with_even_digit_sum.js
+- [x] 02_count_numbers_divisible_by_7_not_5.js
+- [x] 03_palindrome_numbers_1_to_500.js
+- [x] 04_numbers_with_digit_sum_multiple_of_3.js
+- [x] 05_binary_numbers_with_even_1s.js
+- [x] 06_square_pattern_i_i.js
+- [x] 07_sum_of_odd_and_even_digits.js
+- [x] 08_armstrong_numbers_1_to_1000.js
+- [x] 09_perfect_numbers_1_to_1000.js
+- [x] 10_max_digit_sum_number.js
 
 ## 📂 phase_08_star_patterns
 Progress: 0/12 (0%)
