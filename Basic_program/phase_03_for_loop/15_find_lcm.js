@@ -2,7 +2,7 @@
 // Problem: Find LCM
 // Category: for_loop
 // Difficulty: Easy
-// Status:✅ Solved
+// Status: ✅ Solved
 // ==========================================
 
 function solve(a, b) {

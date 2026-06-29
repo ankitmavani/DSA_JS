@@ -1,11 +1,11 @@
 # 📊 Overall Progress
 
-✅ 29/117
+✅ 64/117
 
-📈 25%
+📈 55%
 
 ```
-██░░░░░░░ 25%
+█████░░░░ 55%
 ```
 
 # 🚀 DSA Progress Dashboard
@@ -44,48 +44,48 @@ Progress: 28/29 (97%)
 - [x] 29_largest_digit_in_number.js
 
 ## 📂 phase_02_do_while_loop
-Progress: 1/15 (7%)
+Progress: 15/15 (100%)
 
 - [x] 01_print_numbers_from_1_to_10.js
-- [ ] 02_multiplication_table.js
-- [ ] 03_sum_until_user_enters_0.js
-- [ ] 04_find_largest_number_until_0.js
-- [ ] 05_count_digits.js
-- [ ] 06_reverse_number.js
-- [ ] 07_check_palindrome.js
-- [ ] 08_check_armstrong.js
-- [ ] 09_factorial.js
-- [ ] 10_fibonacci_series.js
-- [ ] 11_find_hcf.js
-- [ ] 12_menu_driven_program.js
-- [ ] 13_count_positive_numbers_until_negative.js
-- [ ] 14_sum_of_digits.js
-- [ ] 15_sum_of_even_and_odd_digits_separately.js
+- [x] 02_multiplication_table.js
+- [x] 03_sum_until_user_enters_0.js
+- [x] 04_find_largest_number_until_0.js
+- [x] 05_count_digits.js
+- [x] 06_reverse_number.js
+- [x] 07_check_palindrome.js
+- [x] 08_check_armstrong.js
+- [x] 09_factorial.js
+- [x] 10_fibonacci_series.js
+- [x] 11_find_hcf.js
+- [x] 12_menu_driven_program.js
+- [x] 13_count_positive_numbers_until_negative.js
+- [x] 14_sum_of_digits.js
+- [x] 15_sum_of_even_and_odd_digits_separately.js
 
 ## 📂 phase_03_for_loop
-Progress: 0/21 (0%)
+Progress: 21/21 (100%)
 
-- [ ] 01_print_numbers_from_1_to_10.js
-- [ ] 02_print_numbers_from_10_to_1.js
-- [ ] 03_even_numbers_1_to_100.js
-- [ ] 04_odd_numbers_1_to_100.js
-- [ ] 05_multiplication_table.js
-- [ ] 06_factorial.js
-- [ ] 07_factorial_from_1_to_n.js
-- [ ] 08_prime_numbers_1_to_100.js
-- [ ] 09_check_prime.js
-- [ ] 10_fibonacci_series.js
-- [ ] 11_sum_of_fibonacci.js
-- [ ] 12_print_factors.js
-- [ ] 13_sum_of_factors.js
-- [ ] 14_find_hcf.js
-- [ ] 15_find_lcm.js
-- [ ] 16_square_1_to_n.js
-- [ ] 17_cube_1_to_n.js
-- [ ] 18_divisible_by_7_between_a_and_b.js
-- [ ] 19_sum_of_n_natural_numbers.js
-- [ ] 20_sum_of_even_numbers.js
-- [ ] 21_sum_of_odd_numbers.js
+- [x] 01_print_numbers_from_1_to_10.js
+- [x] 02_print_numbers_from_10_to_1.js
+- [x] 03_even_numbers_1_to_100.js
+- [x] 04_odd_numbers_1_to_100.js
+- [x] 05_multiplication_table.js
+- [x] 06_factorial.js
+- [x] 07_factorial_from_1_to_n.js
+- [x] 08_prime_numbers_1_to_100.js
+- [x] 09_check_prime.js
+- [x] 10_fibonacci_series.js
+- [x] 11_sum_of_fibonacci.js
+- [x] 12_print_factors.js
+- [x] 13_sum_of_factors.js
+- [x] 14_find_hcf.js
+- [x] 15_find_lcm.js
+- [x] 16_square_1_to_n.js
+- [x] 17_cube_1_to_n.js
+- [x] 18_divisible_by_7_between_a_and_b.js
+- [x] 19_sum_of_n_natural_numbers.js
+- [x] 20_sum_of_even_numbers.js
+- [x] 21_sum_of_odd_numbers.js
 
 ## 📂 phase_04_nested_loop
 Progress: 0/8 (0%)
