@@ -1,11 +1,11 @@
 # 📊 Overall Progress
 
-✅ 105/117
+✅ 117/117
 
-📈 90%
+📈 100%
 
 ```
-█████████░ 90%
+██████████ 100%
 ```
 
 # 🚀 DSA Progress Dashboard
@@ -144,18 +144,18 @@ Progress: 10/10 (100%)
 - [x] 10_max_digit_sum_number.js
 
 ## 📂 phase_08_star_patterns
-Progress: 0/12 (0%)
+Progress: 12/12 (100%)
 
-- [ ] 01_single_star.js
-- [ ] 02_four_stars.js
-- [ ] 03_n_stars_in_a_line.js
-- [ ] 04_square_pattern.js
-- [ ] 05_increasing_triangle.js
-- [ ] 06_right_aligned_triangle.js
-- [ ] 07_even_star_pattern.js
-- [ ] 08_odd_star_pattern.js
-- [ ] 09_centered_pyramid.js
-- [ ] 10_star_and_space_alternate.js
-- [ ] 11_number_increasing_pattern.js
-- [ ] 12_repeated_numbers_pattern.js
+- [x] 01_single_star.js
+- [x] 02_four_stars.js
+- [x] 03_n_stars_in_a_line.js
+- [x] 04_square_pattern.js
+- [x] 05_increasing_triangle.js
+- [x] 06_right_aligned_triangle.js
+- [x] 07_even_star_pattern.js
+- [x] 08_odd_star_pattern.js
+- [x] 09_centered_pyramid.js
+- [x] 10_star_and_space_alternate.js
+- [x] 11_number_increasing_pattern.js
+- [x] 12_repeated_numbers_pattern.js
 
