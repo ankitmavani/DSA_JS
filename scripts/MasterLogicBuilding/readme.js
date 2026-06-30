@@ -1,69 +1,130 @@
 const fs = require('fs');
 const path = require('path');
 
-const basePath = './Master_Logic_Building';
+const BASE_PATH = './Master_Logic_Building';
 
-function getProgress(files, folderPath) {
+function progressBar(percent) {
+  const total = 20;
+  const filled = Math.round((percent / 100) * total);
+
+  return '█'.repeat(filled) + '░'.repeat(total - filled);
+}
+
+function getFiles(folder) {
+  return fs
+    .readdirSync(folder)
+    .filter((file) => fs.statSync(path.join(folder, file)).isFile())
+    .sort();
+}
+
+function getProgress(folder) {
+  const files = getFiles(folder);
+
   let completed = 0;
 
-  const list = files.sort().map((file) => {
-    const content = fs.readFileSync(path.join(folderPath, file), 'utf-8');
+  const list = files.map((file) => {
+    const fullPath = path.join(folder, file);
+    const content = fs.readFileSync(fullPath, 'utf8');
 
-    const done = content.includes('Status: ✅');
+    const done = content.includes('Status     : ✅');
+
     if (done) completed++;
 
-    return { file, done };
+    return {
+      file,
+      done,
+    };
   });
 
-  return { completed, total: files.length, list };
+  return {
+    total: files.length,
+    completed,
+    list,
+  };
 }
 
 function generateReadme() {
-  let totalAll = 0;
-  let completedAll = 0;
+  let totalProblems = 0;
+  let solvedProblems = 0;
 
-  let content = `# 🚀 DSA Progress Dashboard\n\n`;
+  let markdown = `# 🚀 Master Logic Building Progress\n\n`;
 
-  const folders = fs
-    .readdirSync(basePath)
-    .filter((f) => fs.statSync(path.join(basePath, f)).isDirectory())
+  const phases = fs
+    .readdirSync(BASE_PATH)
+    .filter((dir) => fs.statSync(path.join(BASE_PATH, dir)).isDirectory())
     .sort();
 
-  folders.forEach((folder) => {
-    const folderPath = path.join(basePath, folder);
-    const files = fs.readdirSync(folderPath).sort();
+  phases.forEach((phase) => {
+    markdown += `# 📂 ${phase}\n\n`;
 
-    const { completed, total, list } = getProgress(files, folderPath);
+    const phasePath = path.join(BASE_PATH, phase);
 
-    totalAll += total;
-    completedAll += completed;
+    let phaseTotal = 0;
+    let phaseSolved = 0;
 
-    const percent = ((completed / total) * 100 || 0).toFixed(0);
+    const levels = fs
+      .readdirSync(phasePath)
+      .filter((dir) => fs.statSync(path.join(phasePath, dir)).isDirectory())
+      .sort();
 
-    content += `## 📂 ${folder}\n`;
-    content += `Progress: ${completed}/${total} (${percent}%)\n\n`;
+    levels.forEach((level) => {
+      const levelPath = path.join(phasePath, level);
 
-    list.forEach((item) => {
-      content += `- [${item.done ? 'x' : ' '}] ${item.file}\n`;
+      const { total, completed, list } = getProgress(levelPath);
+
+      phaseTotal += total;
+      phaseSolved += completed;
+
+      totalProblems += total;
+      solvedProblems += completed;
+
+      const percent = total === 0 ? 0 : Math.round((completed / total) * 100);
+
+      markdown += `## ${level}\n\n`;
+
+      markdown += `Progress : **${completed}/${total} (${percent}%)**\n\n`;
+
+      markdown += `\`${progressBar(percent)}\`\n\n`;
+
+      list.forEach((problem) => {
+        markdown += `- [${problem.done ? 'x' : ' '}] ${problem.file}\n`;
+      });
+
+      markdown += '\n';
     });
 
-    content += `\n`;
+    const phasePercent =
+      phaseTotal === 0 ? 0 : Math.round((phaseSolved / phaseTotal) * 100);
+
+    markdown += `### 📊 ${phase} Summary\n\n`;
+
+    markdown += `Solved : **${phaseSolved}/${phaseTotal}**\n\n`;
+
+    markdown += `\`${progressBar(phasePercent)} ${phasePercent}%\`\n\n`;
+
+    markdown += '---\n\n';
   });
 
-  const overall = ((completedAll / totalAll) * 100 || 0).toFixed(0);
+  const overallPercent =
+    totalProblems === 0
+      ? 0
+      : Math.round((solvedProblems / totalProblems) * 100);
 
-  content =
-    `# 📊 Overall Progress\n\n` +
-    `✅ ${completedAll}/${totalAll}\n\n` +
-    `📈 ${overall}%\n\n` +
-    `\`\`\`\n${'█'.repeat(overall / 10)}${'░'.repeat(
-      10 - overall / 10,
-    )} ${overall}%\n\`\`\`\n\n` +
-    content;
+  const header = `# 📊 Overall Progress
 
-  fs.writeFileSync(`${basePath}/README.md`, content);
+**Solved:** ${solvedProblems}/${totalProblems}
 
-  console.log('✅ README updated correctly');
+**Completion:** ${overallPercent}%
+
+\`${progressBar(overallPercent)} ${overallPercent}%\`
+
+---
+
+`;
+
+  fs.writeFileSync(path.join(BASE_PATH, 'README.md'), header + markdown);
+
+  console.log('✅ README updated successfully.');
 }
 
 generateReadme();

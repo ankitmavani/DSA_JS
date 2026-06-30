@@ -404,25 +404,38 @@ const phases = {
   },
 };
 
-function formatFileName(index, title) {
-  return `${String(index + 1).padStart(2, '0')}_${title
+function slugify(text) {
+  return text
     .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '_')}.js`;
+    .replace(/[()]/g, '')
+    .replace(/×/g, 'x')
+    .replace(/\^/g, 'power')
+    .replace(/'/g, '')
+    .replace(/[^a-z0-9]+/g, '_')
+    .replace(/^_+|_+$/g, '');
 }
 
-function createFile(folder, index, title) {
-  const fileName = formatFileName(index, title);
-  const filePath = path.join(basePath, folder, fileName);
+function formatFileName(index, title) {
+  return `${String(index + 1).padStart(2, '0')}_${slugify(title)}.js`;
+}
 
-  const content = `// ==========================================
-// Problem: ${title}
-// Category: ${folder}
-// Difficulty: Easy
-// Status: ❌ Not Solved
-// ==========================================
+function ensureDir(dir) {
+  if (!fs.existsSync(dir)) {
+    fs.mkdirSync(dir, { recursive: true });
+  }
+}
+
+function createProblemFile(filePath, phase, level, title) {
+  const content = `// =======================================================
+// Problem    : ${title}
+// Phase      : ${phase}
+// Level      : ${level}
+// Difficulty : Easy
+// Status     : ❌ Not Solved
+// =======================================================
 
 function solve() {
-  // TODO: implement
+  // Write your solution here
 }
 
 solve();
@@ -434,19 +447,26 @@ solve();
 }
 
 function generate() {
-  if (!fs.existsSync(basePath)) fs.mkdirSync(basePath);
+  ensureDir(basePath);
 
-  Object.entries(phases).forEach(([folder, problems]) => {
-    const folderPath = path.join(basePath, folder);
+  for (const [phaseName, levels] of Object.entries(phases)) {
+    const phasePath = path.join(basePath, phaseName);
+    ensureDir(phasePath);
 
-    if (!fs.existsSync(folderPath)) fs.mkdirSync(folderPath);
+    for (const [levelName, problems] of Object.entries(levels)) {
+      const levelPath = path.join(phasePath, levelName);
+      ensureDir(levelPath);
 
-    problems.forEach((title, index) => {
-      createFile(folder, index, title);
-    });
-  });
+      problems.forEach((problem, index) => {
+        const fileName = formatFileName(index, problem);
+        const filePath = path.join(levelPath, fileName);
 
-  console.log('✅ All files generated correctly');
+        createProblemFile(filePath, phaseName, levelName, problem);
+      });
+    }
+  }
+
+  console.log('✅ Complete Logic Building structure generated successfully!');
 }
 
 generate();
