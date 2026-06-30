@@ -11,6 +11,7 @@
 # 🚀 DSA Progress Dashboard
 
 ## 📂 phase_01_while_loop
+
 Progress: 29/29 (100%)
 
 - [x] 01_print_all_numbers_from_1_to_10_using_a_loop.js
@@ -44,6 +45,7 @@ Progress: 29/29 (100%)
 - [x] 29_largest_digit_in_number.js
 
 ## 📂 phase_02_do_while_loop
+
 Progress: 15/15 (100%)
 
 - [x] 01_print_numbers_from_1_to_10.js
@@ -63,6 +65,7 @@ Progress: 15/15 (100%)
 - [x] 15_sum_of_even_and_odd_digits_separately.js
 
 ## 📂 phase_03_for_loop
+
 Progress: 21/21 (100%)
 
 - [x] 01_print_numbers_from_1_to_10.js
@@ -88,10 +91,11 @@ Progress: 21/21 (100%)
 - [x] 21_sum_of_odd_numbers.js
 
 ## 📂 phase_04_nested_loop
+
 Progress: 8/8 (100%)
 
 - [x] 01_multiplication_tables_from_1_to_10.js
-- [x] 02_all_pairs_i_j_.js
+- [x] 02*all_pairs_i_j*.js
 - [x] 03_count_factors_for_each_number.js
 - [x] 04_prime_numbers_using_nested_loop.js
 - [x] 05_fibonacci_pattern.js
@@ -100,6 +104,7 @@ Progress: 8/8 (100%)
 - [x] 08_pythagorean_triplets.js
 
 ## 📂 phase_05_break_continue
+
 Progress: 7/7 (100%)
 
 - [x] 01_stop_at_number_divisible_by_17.js
@@ -111,6 +116,7 @@ Progress: 7/7 (100%)
 - [x] 07_stop_when_sum_100.js
 
 ## 📂 phase_06_mathematical_series
+
 Progress: 15/15 (100%)
 
 - [x] 01_sum_of_first_n_natural_numbers.js
@@ -130,6 +136,7 @@ Progress: 15/15 (100%)
 - [x] 15_check_strong_number.js
 
 ## 📂 phase_07_mixed_problems
+
 Progress: 10/10 (100%)
 
 - [x] 01_numbers_with_even_digit_sum.js
@@ -144,6 +151,7 @@ Progress: 10/10 (100%)
 - [x] 10_max_digit_sum_number.js
 
 ## 📂 phase_08_star_patterns
+
 Progress: 25/25 (100%)
 
 - [x] 01_single_star.js
@@ -171,4 +179,3 @@ Progress: 25/25 (100%)
 - [x] 23_pattern.js
 - [x] 24_pattern.js
 - [x] 25_pattern.js
-
