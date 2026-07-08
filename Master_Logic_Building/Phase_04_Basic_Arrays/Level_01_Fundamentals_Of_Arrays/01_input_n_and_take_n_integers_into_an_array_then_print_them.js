@@ -3,11 +3,14 @@
 // Phase      : Phase_04_Basic_Arrays
 // Level      : Level_01_Fundamentals_Of_Arrays
 // Difficulty : Easy
-// Status     : ❌ Not Solved
+// Status     : ✅ Solved
 // =======================================================
 
-function solve() {
+function solve(arr) {
   // Write your solution here
+  for (let index = 0; index < arr.length; index++) {
+    console.log(arr[index]);
+  }
 }
 
-solve();
+solve([1, 2, 3, 4, 5, 6]);

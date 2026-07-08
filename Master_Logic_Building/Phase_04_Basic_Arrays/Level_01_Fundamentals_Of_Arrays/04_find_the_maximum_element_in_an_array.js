@@ -3,11 +3,16 @@
 // Phase      : Phase_04_Basic_Arrays
 // Level      : Level_01_Fundamentals_Of_Arrays
 // Difficulty : Easy
-// Status     : ❌ Not Solved
+// Status     : ✅ Solved
 // =======================================================
 
-function solve() {
+function solve(arr) {
   // Write your solution here
+  let max = arr[0];
+  for (let index = 0; index < arr.length; index++) {
+    if (arr[index] > max) max = arr[index];
+  }
+  console.log(max);
 }
 
-solve();
+solve([213, 56, 23, 6, 8, 2343, 556]);

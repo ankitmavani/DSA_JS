@@ -3,11 +3,18 @@
 // Phase      : Phase_04_Basic_Arrays
 // Level      : Level_05_Logical_And_Applied_Array_Problems
 // Difficulty : Easy
-// Status     : ❌ Not Solved
+// Status     : ✅ Solved
 // =======================================================
 
-function solve() {
+function solve(arr, k) {
   // Write your solution here
+  for (let index = 0; index < arr.length; index++) {
+    for (let index_j = index + 1; index_j < arr.length; index_j++) {
+      if (arr[index] + arr[index_j] === k) {
+        console.log(arr[index], arr[index_j]);
+      }
+    }
+  }
 }
 
-solve();
+solve([1, 5, 7, -1, 5], 6);

@@ -6,8 +6,10 @@
 // Status     : ❌ Not Solved
 // =======================================================
 
-function solve() {
+function solve(num) {
   // Write your solution here
+  if (!num) return 0;
+  return 1 + solve(parseInt(num / 10));
 }
 
-solve();
+console.log(solve(1234567));

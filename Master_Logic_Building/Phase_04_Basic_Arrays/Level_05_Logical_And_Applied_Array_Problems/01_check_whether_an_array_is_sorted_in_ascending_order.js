@@ -3,11 +3,20 @@
 // Phase      : Phase_04_Basic_Arrays
 // Level      : Level_05_Logical_And_Applied_Array_Problems
 // Difficulty : Easy
-// Status     : ❌ Not Solved
+// Status     : ✅ Solved
 // =======================================================
 
-function solve() {
+function solve(arr) {
   // Write your solution here
+  let sorted = true;
+  for (let index = 0; index < arr.length - 1; index++) {
+    if (arr[index] > arr[index + 1]) {
+      sorted = false;
+      break;
+    }
+  }
+  console.log(sorted);
 }
 
-solve();
+solve([1, 2, 3, 4, 5]);
+solve([1, 2, 3, 4, 5, 2]);
