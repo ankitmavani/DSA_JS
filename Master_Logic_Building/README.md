@@ -1,10 +1,10 @@
 # 📊 Overall Progress
 
-**Solved:** 125/305
+**Solved:** 175/305
 
-**Completion:** 41%
+**Completion:** 57%
 
-`████████░░░░░░░░░░░░ 41%`
+`███████████░░░░░░░░░ 57%`
 
 ---
 
@@ -297,94 +297,94 @@ Solved : **10/40**
 
 ## Level_01_Fundamentals_Of_Arrays
 
-Progress : **0/10 (0%)**
+Progress : **10/10 (100%)**
 
-`░░░░░░░░░░░░░░░░░░░░`
+`████████████████████`
 
-- [ ] 01_input_n_and_take_n_integers_into_an_array_then_print_them.js
-- [ ] 02_find_the_sum_of_all_elements_in_an_array.js
-- [ ] 03_find_the_average_of_array_elements.js
-- [ ] 04_find_the_maximum_element_in_an_array.js
-- [ ] 05_find_the_minimum_element_in_an_array.js
-- [ ] 06_count_how_many_elements_are_positive_negative_or_zero.js
-- [ ] 07_count_how_many_elements_are_even_and_odd.js
-- [ ] 08_find_the_index_of_the_maximum_element.js
-- [ ] 09_find_the_index_of_the_minimum_element.js
-- [ ] 10_print_all_elements_greater_than_a_given_value_k.js
+- [x] 01_input_n_and_take_n_integers_into_an_array_then_print_them.js
+- [x] 02_find_the_sum_of_all_elements_in_an_array.js
+- [x] 03_find_the_average_of_array_elements.js
+- [x] 04_find_the_maximum_element_in_an_array.js
+- [x] 05_find_the_minimum_element_in_an_array.js
+- [x] 06_count_how_many_elements_are_positive_negative_or_zero.js
+- [x] 07_count_how_many_elements_are_even_and_odd.js
+- [x] 08_find_the_index_of_the_maximum_element.js
+- [x] 09_find_the_index_of_the_minimum_element.js
+- [x] 10_print_all_elements_greater_than_a_given_value_k.js
 
 ## Level_02_Searching_And_Counting_Logic
 
-Progress : **0/10 (0%)**
+Progress : **10/10 (100%)**
 
-`░░░░░░░░░░░░░░░░░░░░`
+`████████████████████`
 
-- [ ] 01_check_whether_a_given_element_exists_in_the_array.js
-- [ ] 02_count_how_many_times_a_given_element_appears.js
-- [ ] 03_find_the_first_occurrence_of_a_given_element.js
-- [ ] 04_find_the_last_occurrence_of_a_given_element.js
-- [ ] 05_check_whether_all_elements_in_an_array_are_unique.js
-- [ ] 06_find_the_sum_of_all_even_elements.js
-- [ ] 07_find_the_sum_of_all_odd_elements.js
-- [ ] 08_count_how_many_prime_numbers_are_present_in_the_array.js
-- [ ] 09_count_how_many_numbers_are_divisible_by_both_3_and_5.js
-- [ ] 10_count_how_many_elements_are_perfect_squares.js
+- [x] 01_check_whether_a_given_element_exists_in_the_array.js
+- [x] 02_count_how_many_times_a_given_element_appears.js
+- [x] 03_find_the_first_occurrence_of_a_given_element.js
+- [x] 04_find_the_last_occurrence_of_a_given_element.js
+- [x] 05_check_whether_all_elements_in_an_array_are_unique.js
+- [x] 06_find_the_sum_of_all_even_elements.js
+- [x] 07_find_the_sum_of_all_odd_elements.js
+- [x] 08_count_how_many_prime_numbers_are_present_in_the_array.js
+- [x] 09_count_how_many_numbers_are_divisible_by_both_3_and_5.js
+- [x] 10_count_how_many_elements_are_perfect_squares.js
 
 ## Level_03_Transformation_And_Manipulation
 
-Progress : **0/10 (0%)**
+Progress : **10/10 (100%)**
 
-`░░░░░░░░░░░░░░░░░░░░`
+`████████████████████`
 
-- [ ] 01_create_a_new_array_containing_squares_of_all_numbers.js
-- [ ] 02_create_a_new_array_containing_only_even_elements.js
-- [ ] 03_replace_every_negative_number_with_0.js
-- [ ] 04_replace_all_even_numbers_with_1_and_all_odd_numbers_with_0.js
-- [ ] 05_swap_the_first_and_last_elements_of_the_array.js
-- [ ] 06_reverse_an_array_without_using_the_built_in_reverse_method.js
-- [ ] 07_rotate_an_array_by_one_position_to_the_left.js
-- [ ] 08_rotate_an_array_by_one_position_to_the_right.js
-- [ ] 09_swap_alternate_elements_in_the_array.js
-- [ ] 10_copy_one_array_to_another_manually.js
+- [x] 01_create_a_new_array_containing_squares_of_all_numbers.js
+- [x] 02_create_a_new_array_containing_only_even_elements.js
+- [x] 03_replace_every_negative_number_with_0.js
+- [x] 04_replace_all_even_numbers_with_1_and_all_odd_numbers_with_0.js
+- [x] 05_swap_the_first_and_last_elements_of_the_array.js
+- [x] 06_reverse_an_array_without_using_the_built_in_reverse_method.js
+- [x] 07_rotate_an_array_by_one_position_to_the_left.js
+- [x] 08_rotate_an_array_by_one_position_to_the_right.js
+- [x] 09_swap_alternate_elements_in_the_array.js
+- [x] 10_copy_one_array_to_another_manually.js
 
 ## Level_04_Aggregate_And_Comparative_Thinking
 
-Progress : **0/10 (0%)**
+Progress : **10/10 (100%)**
 
-`░░░░░░░░░░░░░░░░░░░░`
+`████████████████████`
 
-- [ ] 01_compare_two_arrays_and_check_if_they_are_equal_same_elements_and_same_order.js
-- [ ] 02_compare_two_arrays_and_check_if_they_contain_the_same_elements_regardless_of_order.js
-- [ ] 03_merge_two_arrays_into_a_third_array.js
-- [ ] 04_find_the_common_elements_between_two_arrays.js
-- [ ] 05_find_elements_that_exist_in_one_array_but_not_in_the_other.js
-- [ ] 06_count_how_many_elements_are_common_between_two_arrays.js
-- [ ] 07_find_the_element_wise_sum_of_two_arrays.js
-- [ ] 08_find_the_element_wise_product_of_two_arrays.js
-- [ ] 09_create_a_frequency_array_for_numbers.js
-- [ ] 10_print_all_duplicate_elements_in_an_array.js
+- [x] 01_compare_two_arrays_and_check_if_they_are_equal_same_elements_and_same_order.js
+- [x] 02_compare_two_arrays_and_check_if_they_contain_the_same_elements_regardless_of_order.js
+- [x] 03_merge_two_arrays_into_a_third_array.js
+- [x] 04_find_the_common_elements_between_two_arrays.js
+- [x] 05_find_elements_that_exist_in_one_array_but_not_in_the_other.js
+- [x] 06_count_how_many_elements_are_common_between_two_arrays.js
+- [x] 07_find_the_element_wise_sum_of_two_arrays.js
+- [x] 08_find_the_element_wise_product_of_two_arrays.js
+- [x] 09_create_a_frequency_array_for_numbers.js
+- [x] 10_print_all_duplicate_elements_in_an_array.js
 
 ## Level_05_Logical_And_Applied_Array_Problems
 
-Progress : **0/10 (0%)**
+Progress : **10/10 (100%)**
 
-`░░░░░░░░░░░░░░░░░░░░`
+`████████████████████`
 
-- [ ] 01_check_whether_an_array_is_sorted_in_ascending_order.js
-- [ ] 02_check_whether_an_array_is_sorted_in_descending_order.js
-- [ ] 03_find_the_second_largest_element_in_an_array.js
-- [ ] 04_find_the_second_smallest_element_in_an_array.js
-- [ ] 05_find_the_difference_between_the_largest_and_smallest_elements.js
-- [ ] 06_find_the_sum_of_all_elements_except_the_largest_and_smallest.js
-- [ ] 07_count_how_many_pairs_have_a_sum_equal_to_a_given_value_k.js
-- [ ] 08_count_how_many_elements_are_greater_than_the_average_of_the_array.js
-- [ ] 09_print_the_frequency_of_each_distinct_element.js
-- [ ] 10_print_all_unique_elements_that_occur_exactly_once.js
+- [x] 01_check_whether_an_array_is_sorted_in_ascending_order.js
+- [x] 02_check_whether_an_array_is_sorted_in_descending_order.js
+- [x] 03_find_the_second_largest_element_in_an_array.js
+- [x] 04_find_the_second_smallest_element_in_an_array.js
+- [x] 05_find_the_difference_between_the_largest_and_smallest_elements.js
+- [x] 06_find_the_sum_of_all_elements_except_the_largest_and_smallest.js
+- [x] 07_count_how_many_pairs_have_a_sum_equal_to_a_given_value_k.js
+- [x] 08_count_how_many_elements_are_greater_than_the_average_of_the_array.js
+- [x] 09_print_the_frequency_of_each_distinct_element.js
+- [x] 10_print_all_unique_elements_that_occur_exactly_once.js
 
 ### 📊 Phase_04_Basic_Arrays Summary
 
-Solved : **0/50**
+Solved : **50/50**
 
-`░░░░░░░░░░░░░░░░░░░░ 0%`
+`████████████████████ 100%`
 
 ---
 
