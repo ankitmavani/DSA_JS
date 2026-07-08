@@ -3,7 +3,7 @@
 // Phase      : Phase_02_Looping_And_Patterns
 // Level      : Level_04_Pattern_Printing_Stars_And_Numbers
 // Difficulty : Easy
-// Status     : ❌ Not Solved
+// Status     : ✅ Solved
 // =======================================================
 
 function solve() {

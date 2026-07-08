@@ -3,11 +3,13 @@
 // Phase      : Phase_03_Recursion
 // Level      : Level_01_Foundation_Of_Recursion
 // Difficulty : Easy
-// Status     : ❌ Not Solved
+// Status     : ✅ Solved
 // =======================================================
 
-function solve() {
+function solve(num) {
   // Write your solution here
+  if (!num) return 0;
+  return (num % 10) + solve(parseInt(num / 10));
 }
 
-solve();
+console.log(solve(123456789));

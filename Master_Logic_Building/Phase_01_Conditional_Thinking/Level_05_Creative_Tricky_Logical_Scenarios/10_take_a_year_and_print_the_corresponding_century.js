@@ -3,11 +3,16 @@
 // Phase      : Phase_01_Conditional_Thinking
 // Level      : Level_05_Creative_Tricky_Logical_Scenarios
 // Difficulty : Easy
-// Status     : ❌ Not Solved
+// Status     : ✅ Solved
 // =======================================================
 
-function solve() {
+function solve(year) {
   // Write your solution here
+  return Math.ceil(year / 100);
 }
 
-solve();
+solve(1990);
+solve(2033);
+solve(2100);
+solve(800);
+solve(1990);

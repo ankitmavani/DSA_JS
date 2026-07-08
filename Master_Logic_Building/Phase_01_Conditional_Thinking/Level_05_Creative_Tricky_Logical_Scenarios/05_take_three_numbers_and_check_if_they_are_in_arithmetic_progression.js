@@ -3,11 +3,12 @@
 // Phase      : Phase_01_Conditional_Thinking
 // Level      : Level_05_Creative_Tricky_Logical_Scenarios
 // Difficulty : Easy
-// Status     : ❌ Not Solved
+// Status     : ✅ Solved
 // =======================================================
 
-function solve() {
+function solve(a, b, c) {
   // Write your solution here
+  console.log(2 * b === a + c);
 }
 
-solve();
+solve(2, 4, 6);

@@ -3,11 +3,16 @@
 // Phase      : Phase_01_Conditional_Thinking
 // Level      : Level_01_Simple_Conditions
 // Difficulty : Easy
-// Status     : ❌ Not Solved
+// Status     : ✅ Solved
 // =======================================================
 
-function solve() {
+function solve(a, b) {
   // Write your solution here
+  if (a > b) {
+    console.log(a);
+  } else {
+    console.log(b);
+  }
 }
 
-solve();
+solve(10, 20);
