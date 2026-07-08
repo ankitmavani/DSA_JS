@@ -1,10 +1,10 @@
 # 📊 Overall Progress
 
-**Solved:** 0/305
+**Solved:** 125/305
 
-**Completion:** 0%
+**Completion:** 41%
 
-`░░░░░░░░░░░░░░░░░░░░ 0%`
+`████████░░░░░░░░░░░░ 41%`
 
 ---
 
@@ -14,94 +14,94 @@
 
 ## Level_01_Simple_Conditions
 
-Progress : **0/10 (0%)**
+Progress : **10/10 (100%)**
 
-`░░░░░░░░░░░░░░░░░░░░`
+`████████████████████`
 
-- [ ] 01_take_a_number_and_print_whether_its_positive_negative_or_zero.js
-- [ ] 02_check_if_a_number_is_even_or_odd.js
-- [ ] 03_check_if_a_number_is_divisible_by_5.js
-- [ ] 04_check_if_a_number_is_divisible_by_both_3_and_5.js
-- [ ] 05_check_if_a_given_year_is_a_leap_year.js
-- [ ] 06_take_two_numbers_and_print_the_larger_one.js
-- [ ] 07_take_three_numbers_and_print_the_largest.js
-- [ ] 08_take_a_temperature_value_and_print_cold_warm_or_hot_using_range_conditions.js
-- [ ] 09_take_a_character_and_check_if_its_a_vowel_or_consonant.js
-- [ ] 10_take_a_character_and_check_whether_its_uppercase_lowercase_a_digit_or_a_special_character.js
+- [x] 01_take_a_number_and_print_whether_its_positive_negative_or_zero.js
+- [x] 02_check_if_a_number_is_even_or_odd.js
+- [x] 03_check_if_a_number_is_divisible_by_5.js
+- [x] 04_check_if_a_number_is_divisible_by_both_3_and_5.js
+- [x] 05_check_if_a_given_year_is_a_leap_year.js
+- [x] 06_take_two_numbers_and_print_the_larger_one.js
+- [x] 07_take_three_numbers_and_print_the_largest.js
+- [x] 08_take_a_temperature_value_and_print_cold_warm_or_hot_using_range_conditions.js
+- [x] 09_take_a_character_and_check_if_its_a_vowel_or_consonant.js
+- [x] 10_take_a_character_and_check_whether_its_uppercase_lowercase_a_digit_or_a_special_character.js
 
 ## Level_02_Nested_If_Multiple_Conditions
 
-Progress : **0/10 (0%)**
+Progress : **10/10 (100%)**
 
-`░░░░░░░░░░░░░░░░░░░░`
+`████████████████████`
 
-- [ ] 01_take_three_sides_and_check_if_they_form_a_valid_triangle.js
-- [ ] 02_determine_whether_the_triangle_is_equilateral_isosceles_or_scalene.js
-- [ ] 03_take_marks_0_100_and_print_the_corresponding_grade_a_b_c_d_f.js
-- [ ] 04_check_if_one_of_two_given_numbers_is_a_multiple_of_the_other.js
-- [ ] 05_take_the_hour_of_the_day_0_23_and_print_good_morning_good_afternoon_good_evening_or_good_night.js
-- [ ] 06_check_voting_eligibility_for_a_given_age_18.js
-- [ ] 07_take_two_numbers_and_determine_whether_both_are_even_both_are_odd_or_one_is_even_and_one_is_odd.js
-- [ ] 08_take_an_alphabet_character_and_check_if_it_lies_between_a_m_or_n_z.js
-- [ ] 09_take_a_day_number_1_7_and_print_the_corresponding_day_name.js
-- [ ] 10_take_a_month_number_1_12_and_print_the_number_of_days_in_that_month.js
+- [x] 01_take_three_sides_and_check_if_they_form_a_valid_triangle.js
+- [x] 02_determine_whether_the_triangle_is_equilateral_isosceles_or_scalene.js
+- [x] 03_take_marks_0_100_and_print_the_corresponding_grade_a_b_c_d_f.js
+- [x] 04_check_if_one_of_two_given_numbers_is_a_multiple_of_the_other.js
+- [x] 05_take_the_hour_of_the_day_0_23_and_print_good_morning_good_afternoon_good_evening_or_good_night.js
+- [x] 06_check_voting_eligibility_for_a_given_age_18.js
+- [x] 07_take_two_numbers_and_determine_whether_both_are_even_both_are_odd_or_one_is_even_and_one_is_odd.js
+- [x] 08_take_an_alphabet_character_and_check_if_it_lies_between_a_m_or_n_z.js
+- [x] 09_take_a_day_number_1_7_and_print_the_corresponding_day_name.js
+- [x] 10_take_a_month_number_1_12_and_print_the_number_of_days_in_that_month.js
 
 ## Level_03_Math_And_Number_Logic
 
-Progress : **0/10 (0%)**
+Progress : **10/10 (100%)**
 
-`░░░░░░░░░░░░░░░░░░░░`
+`████████████████████`
 
-- [ ] 01_take_a_3_digit_number_and_check_if_all_digits_are_distinct.js
-- [ ] 02_take_a_3_digit_number_and_determine_if_the_middle_digit_is_the_largest_smallest_or_neither.js
-- [ ] 03_take_a_4_digit_number_and_check_if_the_first_and_last_digits_are_equal.js
-- [ ] 04_check_whether_a_given_integer_is_single_digit_double_digit_or_multi_digit.js
-- [ ] 05_check_if_a_number_is_a_multiple_of_7_or_ends_with_7.js
-- [ ] 06_take_coordinates_x_y_and_determine_which_quadrant_the_point_lies_in.js
-- [ ] 07_check_if_an_amount_can_be_evenly_divided_into_2000_500_and_100_currency_notes.js
-- [ ] 08_check_if_a_number_lies_within_the_range_100_999.js
-- [ ] 09_take_two_angles_of_a_triangle_and_compute_the_third_angle.js
-- [ ] 10_check_whether_a_number_is_a_perfect_square_without_using_square_root.js
+- [x] 01_take_a_3_digit_number_and_check_if_all_digits_are_distinct.js
+- [x] 02_take_a_3_digit_number_and_determine_if_the_middle_digit_is_the_largest_smallest_or_neither.js
+- [x] 03_take_a_4_digit_number_and_check_if_the_first_and_last_digits_are_equal.js
+- [x] 04_check_whether_a_given_integer_is_single_digit_double_digit_or_multi_digit.js
+- [x] 05_check_if_a_number_is_a_multiple_of_7_or_ends_with_7.js
+- [x] 06_take_coordinates_x_y_and_determine_which_quadrant_the_point_lies_in.js
+- [x] 07_check_if_an_amount_can_be_evenly_divided_into_2000_500_and_100_currency_notes.js
+- [x] 08_check_if_a_number_lies_within_the_range_100_999.js
+- [x] 09_take_two_angles_of_a_triangle_and_compute_the_third_angle.js
+- [x] 10_check_whether_a_number_is_a_perfect_square_without_using_square_root.js
 
 ## Level_04_Logical_Operators_Compound_Statements
 
-Progress : **0/10 (0%)**
+Progress : **10/10 (100%)**
 
-`░░░░░░░░░░░░░░░░░░░░`
+`████████████████████`
 
-- [ ] 01_take_a_character_and_check_if_it_is_a_letter_a_digit_or_neither.js
-- [ ] 02_fizzbuzz.js
-- [ ] 03_take_three_numbers_and_print_the_median_value.js
-- [ ] 04_take_24_hour_time_and_print_whether_it_is_am_or_pm.js
-- [ ] 05_take_income_and_age_and_check_tax_eligibility.js
-- [ ] 06_take_two_numbers_and_check_if_both_are_positive_and_their_sum_is_less_than_100.js
-- [ ] 07_take_a_single_digit_0_9_and_print_its_word_form.js
-- [ ] 08_take_a_weekday_number_1_7_and_determine_if_it_is_a_weekday_or_weekend.js
-- [ ] 09_take_electricity_units_consumed_and_calculate_the_bill_as_per_slabs.js
-- [ ] 10_validate_a_password_length_8_and_contains_at_least_one_digit.js
+- [x] 01_take_a_character_and_check_if_it_is_a_letter_a_digit_or_neither.js
+- [x] 02_fizzbuzz.js
+- [x] 03_take_three_numbers_and_print_the_median_value.js
+- [x] 04_take_24_hour_time_and_print_whether_it_is_am_or_pm.js
+- [x] 05_take_income_and_age_and_check_tax_eligibility.js
+- [x] 06_take_two_numbers_and_check_if_both_are_positive_and_their_sum_is_less_than_100.js
+- [x] 07_take_a_single_digit_0_9_and_print_its_word_form.js
+- [x] 08_take_a_weekday_number_1_7_and_determine_if_it_is_a_weekday_or_weekend.js
+- [x] 09_take_electricity_units_consumed_and_calculate_the_bill_as_per_slabs.js
+- [x] 10_validate_a_password_length_8_and_contains_at_least_one_digit.js
 
 ## Level_05_Creative_Tricky_Logical_Scenarios
 
-Progress : **0/10 (0%)**
+Progress : **10/10 (100%)**
 
-`░░░░░░░░░░░░░░░░░░░░`
+`████████████████████`
 
-- [ ] 01_take_coordinates_x_y_and_check_if_the_point_lies_on_x_axis_y_axis_or_origin.js
-- [ ] 02_take_three_numbers_and_check_if_they_can_form_a_pythagorean_triplet.js
-- [ ] 03_take_day_and_month_and_check_if_it_forms_a_valid_calendar_date.js
-- [ ] 04_take_time_hours_and_minutes_and_print_the_smaller_angle_between_clock_hands.js
-- [ ] 05_take_three_numbers_and_check_if_they_are_in_arithmetic_progression.js
-- [ ] 06_take_three_numbers_and_check_if_they_are_in_geometric_progression.js
-- [ ] 07_take_a_3_digit_number_and_check_if_the_sum_of_first_and_last_digit_equals_the_middle_digit.js
-- [ ] 08_take_an_integer_1_9999_and_check_if_the_sum_of_digits_is_greater_than_the_product_of_digits.js
-- [ ] 09_take_two_dates_day_and_month_and_determine_which_one_comes_first.js
-- [ ] 10_take_a_year_and_print_the_corresponding_century.js
+- [x] 01_take_coordinates_x_y_and_check_if_the_point_lies_on_x_axis_y_axis_or_origin.js
+- [x] 02_take_three_numbers_and_check_if_they_can_form_a_pythagorean_triplet.js
+- [x] 03_take_day_and_month_and_check_if_it_forms_a_valid_calendar_date.js
+- [x] 04_take_time_hours_and_minutes_and_print_the_smaller_angle_between_clock_hands.js
+- [x] 05_take_three_numbers_and_check_if_they_are_in_arithmetic_progression.js
+- [x] 06_take_three_numbers_and_check_if_they_are_in_geometric_progression.js
+- [x] 07_take_a_3_digit_number_and_check_if_the_sum_of_first_and_last_digit_equals_the_middle_digit.js
+- [x] 08_take_an_integer_1_9999_and_check_if_the_sum_of_digits_is_greater_than_the_product_of_digits.js
+- [x] 09_take_two_dates_day_and_month_and_determine_which_one_comes_first.js
+- [x] 10_take_a_year_and_print_the_corresponding_century.js
 
 ### 📊 Phase_01_Conditional_Thinking Summary
 
-Solved : **0/50**
+Solved : **50/50**
 
-`░░░░░░░░░░░░░░░░░░░░ 0%`
+`████████████████████ 100%`
 
 ---
 
@@ -109,109 +109,109 @@ Solved : **0/50**
 
 ## Level_01_Basic_Looping
 
-Progress : **0/10 (0%)**
+Progress : **10/10 (100%)**
 
-`░░░░░░░░░░░░░░░░░░░░`
+`████████████████████`
 
-- [ ] 01_print_numbers_from_1_to_10.js
-- [ ] 02_print_all_even_numbers_between_1_and_100.js
-- [ ] 03_print_all_odd_numbers_between_1_and_100.js
-- [ ] 04_print_numbers_from_10_down_to_1.js
-- [ ] 05_print_the_multiplication_table_of_a_given_number_n_x_1_to_n_x_10.js
-- [ ] 06_print_the_sum_of_first_n_natural_numbers.js
-- [ ] 07_print_the_sum_of_all_even_numbers_up_to_n.js
-- [ ] 08_print_the_sum_of_all_odd_numbers_up_to_n.js
-- [ ] 09_print_the_factorial_of_a_given_number.js
-- [ ] 10_print_the_product_of_digits_of_a_given_number.js
+- [x] 01_print_numbers_from_1_to_10.js
+- [x] 02_print_all_even_numbers_between_1_and_100.js
+- [x] 03_print_all_odd_numbers_between_1_and_100.js
+- [x] 04_print_numbers_from_10_down_to_1.js
+- [x] 05_print_the_multiplication_table_of_a_given_number_n_x_1_to_n_x_10.js
+- [x] 06_print_the_sum_of_first_n_natural_numbers.js
+- [x] 07_print_the_sum_of_all_even_numbers_up_to_n.js
+- [x] 08_print_the_sum_of_all_odd_numbers_up_to_n.js
+- [x] 09_print_the_factorial_of_a_given_number.js
+- [x] 10_print_the_product_of_digits_of_a_given_number.js
 
 ## Level_02_Number_Based_Looping_Logic
 
-Progress : **0/10 (0%)**
+Progress : **10/10 (100%)**
 
-`░░░░░░░░░░░░░░░░░░░░`
+`████████████████████`
 
-- [ ] 01_count_the_number_of_digits_in_a_given_number.js
-- [ ] 02_print_the_reverse_of_a_given_number.js
-- [ ] 03_check_if_a_number_is_a_palindrome.js
-- [ ] 04_find_the_sum_of_digits_of_a_number.js
-- [ ] 05_check_if_a_number_is_an_armstrong_number.js
-- [ ] 06_check_if_a_number_is_a_perfect_number.js
-- [ ] 07_print_all_prime_numbers_between_1_and_100.js
-- [ ] 08_check_if_a_number_is_prime_or_not.js
-- [ ] 09_print_fibonacci_series_up_to_n_terms.js
-- [ ] 10_print_the_sum_of_first_n_terms_of_fibonacci_series.js
+- [x] 01_count_the_number_of_digits_in_a_given_number.js
+- [x] 02_print_the_reverse_of_a_given_number.js
+- [x] 03_check_if_a_number_is_a_palindrome.js
+- [x] 04_find_the_sum_of_digits_of_a_number.js
+- [x] 05_check_if_a_number_is_an_armstrong_number.js
+- [x] 06_check_if_a_number_is_a_perfect_number.js
+- [x] 07_print_all_prime_numbers_between_1_and_100.js
+- [x] 08_check_if_a_number_is_prime_or_not.js
+- [x] 09_print_fibonacci_series_up_to_n_terms.js
+- [x] 10_print_the_sum_of_first_n_terms_of_fibonacci_series.js
 
 ## Level_03_Mathematical_And_Logical_Patterns
 
-Progress : **0/10 (0%)**
+Progress : **10/10 (100%)**
 
-`░░░░░░░░░░░░░░░░░░░░`
+`████████████████████`
 
-- [ ] 01_print_the_squares_of_numbers_from_1_to_n.js
-- [ ] 02_print_cubes_of_numbers_from_1_to_n.js
-- [ ] 03_print_all_numbers_between_a_and_b_divisible_by_7.js
-- [ ] 04_find_hcf_gcd_of_two_numbers_using_loops.js
-- [ ] 05_find_lcm_of_two_numbers_using_loops.js
-- [ ] 06_print_all_factors_of_a_given_number.js
-- [ ] 07_find_the_sum_of_all_factors_of_a_number.js
-- [ ] 08_check_if_a_number_is_a_strong_number.js
-- [ ] 09_print_first_n_terms_of_an_arithmetic_progression_ap.js
-- [ ] 10_print_first_n_terms_of_a_geometric_progression_gp.js
+- [x] 01_print_the_squares_of_numbers_from_1_to_n.js
+- [x] 02_print_cubes_of_numbers_from_1_to_n.js
+- [x] 03_print_all_numbers_between_a_and_b_divisible_by_7.js
+- [x] 04_find_hcf_gcd_of_two_numbers_using_loops.js
+- [x] 05_find_lcm_of_two_numbers_using_loops.js
+- [x] 06_print_all_factors_of_a_given_number.js
+- [x] 07_find_the_sum_of_all_factors_of_a_number.js
+- [x] 08_check_if_a_number_is_a_strong_number.js
+- [x] 09_print_first_n_terms_of_an_arithmetic_progression_ap.js
+- [x] 10_print_first_n_terms_of_a_geometric_progression_gp.js
 
 ## Level_04_Pattern_Printing_Stars_And_Numbers
 
-Progress : **0/25 (0%)**
+Progress : **25/25 (100%)**
 
-`░░░░░░░░░░░░░░░░░░░░`
+`████████████████████`
 
-- [ ] 01_single_star_pattern.js
-- [ ] 02_horizontal_line_of_n_stars.js
-- [ ] 03_square_star_pattern.js
-- [ ] 04_rectangle_star_pattern.js
-- [ ] 05_increasing_star_triangle.js
-- [ ] 06_decreasing_star_triangle.js
-- [ ] 07_right_aligned_triangle.js
-- [ ] 08_left_aligned_triangle.js
-- [ ] 09_centered_pyramid.js
-- [ ] 10_inverted_pyramid.js
-- [ ] 11_diamond_pattern.js
-- [ ] 12_hollow_square.js
-- [ ] 13_hollow_rectangle.js
-- [ ] 14_hollow_triangle.js
-- [ ] 15_hollow_pyramid.js
-- [ ] 16_number_increasing_triangle.js
-- [ ] 17_number_decreasing_triangle.js
-- [ ] 18_repeated_number_triangle.js
-- [ ] 19_floyds_triangle.js
-- [ ] 20_pascal_triangle.js
-- [ ] 21_character_triangle.js
-- [ ] 22_alphabet_pyramid.js
-- [ ] 23_butterfly_pattern.js
-- [ ] 24_hourglass_pattern.js
-- [ ] 25_x_pattern.js
+- [x] 01_single_star_pattern.js
+- [x] 02_horizontal_line_of_n_stars.js
+- [x] 03_square_star_pattern.js
+- [x] 04_rectangle_star_pattern.js
+- [x] 05_increasing_star_triangle.js
+- [x] 06_decreasing_star_triangle.js
+- [x] 07_right_aligned_triangle.js
+- [x] 08_left_aligned_triangle.js
+- [x] 09_centered_pyramid.js
+- [x] 10_inverted_pyramid.js
+- [x] 11_diamond_pattern.js
+- [x] 12_hollow_square.js
+- [x] 13_hollow_rectangle.js
+- [x] 14_hollow_triangle.js
+- [x] 15_hollow_pyramid.js
+- [x] 16_number_increasing_triangle.js
+- [x] 17_number_decreasing_triangle.js
+- [x] 18_repeated_number_triangle.js
+- [x] 19_floyds_triangle.js
+- [x] 20_pascal_triangle.js
+- [x] 21_character_triangle.js
+- [x] 22_alphabet_pyramid.js
+- [x] 23_butterfly_pattern.js
+- [x] 24_hourglass_pattern.js
+- [x] 25_x_pattern.js
 
 ## Level_05_Logical_Loop_Combinations
 
-Progress : **0/10 (0%)**
+Progress : **10/10 (100%)**
 
-`░░░░░░░░░░░░░░░░░░░░`
+`████████████████████`
 
-- [ ] 01_print_all_numbers_whose_sum_of_digits_is_even_1_100.js
-- [ ] 02_count_how_many_numbers_between_1_500_are_divisible_by_7_but_not_by_5.js
-- [ ] 03_print_all_palindrome_numbers_between_1_500.js
-- [ ] 04_print_numbers_between_1_100_whose_digits_add_up_to_a_multiple_of_3.js
-- [ ] 05_find_the_smallest_digit_in_a_given_number.js
-- [ ] 06_find_the_largest_digit_in_a_given_number.js
-- [ ] 07_print_all_numbers_from_1_n_whose_binary_representation_has_an_even_number_of_1s.js
-- [ ] 08_print_factorial_of_each_number_from_1_to_n.js
-- [ ] 09_print_the_sum_of_odd_digits_and_even_digits_separately_in_a_number.js
-- [ ] 10_take_5_numbers_as_input_skip_0_using_continue_and_print_the_sum_of_all_non_zero_numbers.js
+- [x] 01_print_all_numbers_whose_sum_of_digits_is_even_1_100.js
+- [x] 02_count_how_many_numbers_between_1_500_are_divisible_by_7_but_not_by_5.js
+- [x] 03_print_all_palindrome_numbers_between_1_500.js
+- [x] 04_print_numbers_between_1_100_whose_digits_add_up_to_a_multiple_of_3.js
+- [x] 05_find_the_smallest_digit_in_a_given_number.js
+- [x] 06_find_the_largest_digit_in_a_given_number.js
+- [x] 07_print_all_numbers_from_1_n_whose_binary_representation_has_an_even_number_of_1s.js
+- [x] 08_print_factorial_of_each_number_from_1_to_n.js
+- [x] 09_print_the_sum_of_odd_digits_and_even_digits_separately_in_a_number.js
+- [x] 10_take_5_numbers_as_input_skip_0_using_continue_and_print_the_sum_of_all_non_zero_numbers.js
 
 ### 📊 Phase_02_Looping_And_Patterns Summary
 
-Solved : **0/65**
+Solved : **65/65**
 
-`░░░░░░░░░░░░░░░░░░░░ 0%`
+`████████████████████ 100%`
 
 ---
 
@@ -219,20 +219,20 @@ Solved : **0/65**
 
 ## Level_01_Foundation_Of_Recursion
 
-Progress : **0/10 (0%)**
+Progress : **10/10 (100%)**
 
-`░░░░░░░░░░░░░░░░░░░░`
+`████████████████████`
 
-- [ ] 01_print_numbers_from_1_to_n_using_recursion.js
-- [ ] 02_print_numbers_from_n_down_to_1_using_recursion.js
-- [ ] 03_print_only_even_numbers_from_1_to_n_recursively.js
-- [ ] 04_print_only_odd_numbers_from_1_to_n_recursively.js
-- [ ] 05_print_the_sum_of_first_n_natural_numbers_recursively.js
-- [ ] 06_print_the_factorial_of_a_number_recursively.js
-- [ ] 07_calculate_the_power_of_a_number_xpowern_using_recursion.js
-- [ ] 08_find_the_nth_fibonacci_number_recursively.js
-- [ ] 09_print_fibonacci_series_up_to_n_terms_recursively.js
-- [ ] 10_find_the_sum_of_digits_of_a_number_recursively.js
+- [x] 01_print_numbers_from_1_to_n_using_recursion.js
+- [x] 02_print_numbers_from_n_down_to_1_using_recursion.js
+- [x] 03_print_only_even_numbers_from_1_to_n_recursively.js
+- [x] 04_print_only_odd_numbers_from_1_to_n_recursively.js
+- [x] 05_print_the_sum_of_first_n_natural_numbers_recursively.js
+- [x] 06_print_the_factorial_of_a_number_recursively.js
+- [x] 07_calculate_the_power_of_a_number_xpowern_using_recursion.js
+- [x] 08_find_the_nth_fibonacci_number_recursively.js
+- [x] 09_print_fibonacci_series_up_to_n_terms_recursively.js
+- [x] 10_find_the_sum_of_digits_of_a_number_recursively.js
 
 ## Level_02_Number_Based_Recursive_Thinking
 
@@ -287,9 +287,9 @@ Progress : **0/10 (0%)**
 
 ### 📊 Phase_03_Recursion Summary
 
-Solved : **0/40**
+Solved : **10/40**
 
-`░░░░░░░░░░░░░░░░░░░░ 0%`
+`█████░░░░░░░░░░░░░░░ 25%`
 
 ---
 
