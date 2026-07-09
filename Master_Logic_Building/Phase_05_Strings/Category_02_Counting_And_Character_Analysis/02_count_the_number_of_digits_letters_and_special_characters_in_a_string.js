@@ -3,11 +3,30 @@
 // Phase      : Phase_05_Strings
 // Level      : Category_02_Counting_And_Character_Analysis
 // Difficulty : Easy
-// Status     : ❌ Not Solved
+// Status     : ✅ Solved
 // =======================================================
 
-function solve() {
+function solve(str) {
   // Write your solution here
+
+  let letters = 0;
+  let digits = 0;
+  let special = 0;
+
+  for (let i = 0; i < str.length; i++) {
+    let ch = str[i];
+    if (ch === ' ') {
+      continue;
+    }
+    if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')) {
+      letters++;
+    } else if (ch >= '0' && ch <= '9') {
+      digits++;
+    } else {
+      special++;
+    }
+  }
+  console.log(letters, digits, special);
 }
 
-solve();
+solve('hello world123!');

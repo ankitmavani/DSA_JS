@@ -3,11 +3,12 @@
 // Phase      : Phase_05_Strings
 // Level      : Category_05_Word_Level_Thinking
 // Difficulty : Easy
-// Status     : ❌ Not Solved
+// Status     : ✅ Solved
 // =======================================================
 
-function solve() {
+function solve(str) {
   // Write your solution here
+  str.split(' ').map((str) => console.log(str));
 }
 
-solve();
+solve('hello world sample');

@@ -3,7 +3,7 @@
 // Phase      : Phase_06_Mixed_Logical_Challenges
 // Level      : Category_02_String_And_Logic_Mix
 // Difficulty : Easy
-// Status     : ❌ Not Solved
+// Status     : ✅ Solved
 // =======================================================
 
 function solve() {

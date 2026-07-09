@@ -3,11 +3,12 @@
 // Phase      : Phase_05_Strings
 // Level      : Category_01_Basic_String_Handling
 // Difficulty : Easy
-// Status     : ❌ Not Solved
+// Status     : ✅ Solved
 // =======================================================
 
-function solve() {
+function solve(str) {
   // Write your solution here
+  console.log(str.length);
 }
 
-solve();
+solve('abcdefg');
