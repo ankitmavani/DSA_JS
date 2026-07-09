@@ -1,10 +1,10 @@
 # 📊 Overall Progress
 
-**Solved:** 175/305
+**Solved:** 273/305
 
-**Completion:** 57%
+**Completion:** 90%
 
-`███████████░░░░░░░░░ 57%`
+`██████████████████░░ 90%`
 
 ---
 
@@ -392,94 +392,94 @@ Solved : **50/50**
 
 ## Category_01_Basic_String_Handling
 
-Progress : **0/10 (0%)**
+Progress : **10/10 (100%)**
 
-`░░░░░░░░░░░░░░░░░░░░`
+`████████████████████`
 
-- [ ] 01_take_a_string_input_and_print_its_length.js
-- [ ] 02_print_the_first_and_last_character_of_a_string.js
-- [ ] 03_convert_all_characters_of_a_string_to_uppercase.js
-- [ ] 04_convert_all_characters_of_a_string_to_lowercase.js
-- [ ] 05_count_how_many_characters_excluding_spaces_are_in_the_string.js
-- [ ] 06_count_how_many_words_are_in_a_sentence.js
-- [ ] 07_take_two_strings_and_print_them_concatenated.js
-- [ ] 08_compare_two_strings_lexicographically.js
-- [ ] 09_print_the_ascii_value_of_each_character_in_a_string.js
-- [ ] 10_check_whether_the_string_is_empty_or_not.js
+- [x] 01_take_a_string_input_and_print_its_length.js
+- [x] 02_print_the_first_and_last_character_of_a_string.js
+- [x] 03_convert_all_characters_of_a_string_to_uppercase.js
+- [x] 04_convert_all_characters_of_a_string_to_lowercase.js
+- [x] 05_count_how_many_characters_excluding_spaces_are_in_the_string.js
+- [x] 06_count_how_many_words_are_in_a_sentence.js
+- [x] 07_take_two_strings_and_print_them_concatenated.js
+- [x] 08_compare_two_strings_lexicographically.js
+- [x] 09_print_the_ascii_value_of_each_character_in_a_string.js
+- [x] 10_check_whether_the_string_is_empty_or_not.js
 
 ## Category_02_Counting_And_Character_Analysis
 
-Progress : **0/10 (0%)**
+Progress : **10/10 (100%)**
 
-`░░░░░░░░░░░░░░░░░░░░`
+`████████████████████`
 
-- [ ] 01_count_how_many_vowels_and_consonants_are_in_a_string.js
-- [ ] 02_count_the_number_of_digits_letters_and_special_characters_in_a_string.js
-- [ ] 03_count_how_many_uppercase_and_lowercase_letters_a_string_has.js
-- [ ] 04_find_the_frequency_of_each_character_in_a_string_without_using_a_map.js
-- [ ] 05_count_how_many_spaces_are_there_in_a_sentence.js
-- [ ] 06_count_how_many_times_a_given_character_appears_in_a_string.js
-- [ ] 07_count_how_many_alphabets_are_before_m_and_after_m_in_a_given_string.js
-- [ ] 08_count_how_many_substrings_start_and_end_with_the_same_character.js
-- [ ] 09_print_how_many_words_start_with_a_vowel_in_a_sentence.js
-- [ ] 10_count_how_many_words_end_with_s.js
+- [x] 01_count_how_many_vowels_and_consonants_are_in_a_string.js
+- [x] 02_count_the_number_of_digits_letters_and_special_characters_in_a_string.js
+- [x] 03_count_how_many_uppercase_and_lowercase_letters_a_string_has.js
+- [x] 04_find_the_frequency_of_each_character_in_a_string_without_using_a_map.js
+- [x] 05_count_how_many_spaces_are_there_in_a_sentence.js
+- [x] 06_count_how_many_times_a_given_character_appears_in_a_string.js
+- [x] 07_count_how_many_alphabets_are_before_m_and_after_m_in_a_given_string.js
+- [x] 08_count_how_many_substrings_start_and_end_with_the_same_character.js
+- [x] 09_print_how_many_words_start_with_a_vowel_in_a_sentence.js
+- [x] 10_count_how_many_words_end_with_s.js
 
 ## Category_03_Reversing_And_Palindromic_Thinking
 
-Progress : **0/10 (0%)**
+Progress : **10/10 (100%)**
 
-`░░░░░░░░░░░░░░░░░░░░`
+`████████████████████`
 
-- [ ] 01_reverse_a_string_without_using_the_built_in_reverse_method.js
-- [ ] 02_reverse_each_word_in_a_sentence.js
-- [ ] 03_reverse_the_order_of_words_in_a_sentence.js
-- [ ] 04_check_whether_a_string_is_a_palindrome.js
-- [ ] 05_check_if_two_strings_are_the_reverse_of_each_other.js
-- [ ] 06_print_the_middle_characters_of_a_string.js
-- [ ] 07_print_the_second_half_of_the_string_in_reverse.js
-- [ ] 08_remove_the_first_and_last_character_and_print_the_remaining_string.js
-- [ ] 09_reverse_only_characters_while_keeping_digits_in_place.js
-- [ ] 10_reverse_a_string_but_skip_spaces.js
+- [x] 01_reverse_a_string_without_using_the_built_in_reverse_method.js
+- [x] 02_reverse_each_word_in_a_sentence.js
+- [x] 03_reverse_the_order_of_words_in_a_sentence.js
+- [x] 04_check_whether_a_string_is_a_palindrome.js
+- [x] 05_check_if_two_strings_are_the_reverse_of_each_other.js
+- [x] 06_print_the_middle_characters_of_a_string.js
+- [x] 07_print_the_second_half_of_the_string_in_reverse.js
+- [x] 08_remove_the_first_and_last_character_and_print_the_remaining_string.js
+- [x] 09_reverse_only_characters_while_keeping_digits_in_place.js
+- [x] 10_reverse_a_string_but_skip_spaces.js
 
 ## Category_04_Character_And_Word_Manipulation
 
-Progress : **0/10 (0%)**
+Progress : **10/10 (100%)**
 
-`░░░░░░░░░░░░░░░░░░░░`
+`████████████████████`
 
-- [ ] 01_remove_all_vowels_from_a_string.js
-- [ ] 02_remove_all_spaces_from_a_string.js
-- [ ] 03_replace_all_vowels_with.js
-- [ ] 04_replace_all_spaces_with.js
-- [ ] 05_print_the_string_after_removing_all_digits.js
-- [ ] 06_remove_duplicate_characters_from_a_string.js
-- [ ] 07_keep_only_the_first_occurrence_of_each_character.js
-- [ ] 08_remove_consecutive_duplicate_characters.js
-- [ ] 09_swap_the_case_of_every_character.js
-- [ ] 10_shift_each_character_by_one_position.js
+- [x] 01_remove_all_vowels_from_a_string.js
+- [x] 02_remove_all_spaces_from_a_string.js
+- [x] 03_replace_all_vowels_with.js
+- [x] 04_replace_all_spaces_with.js
+- [x] 05_print_the_string_after_removing_all_digits.js
+- [x] 06_remove_duplicate_characters_from_a_string.js
+- [x] 07_keep_only_the_first_occurrence_of_each_character.js
+- [x] 08_remove_consecutive_duplicate_characters.js
+- [x] 09_swap_the_case_of_every_character.js
+- [x] 10_shift_each_character_by_one_position.js
 
 ## Category_05_Word_Level_Thinking
 
-Progress : **0/10 (0%)**
+Progress : **10/10 (100%)**
 
-`░░░░░░░░░░░░░░░░░░░░`
+`████████████████████`
 
-- [ ] 01_print_each_word_of_a_sentence_on_a_new_line.js
-- [ ] 02_count_how_many_words_have_even_length.js
-- [ ] 03_find_the_longest_word_in_a_sentence.js
-- [ ] 04_find_the_shortest_word_in_a_sentence.js
-- [ ] 05_swap_the_first_and_last_words_in_a_sentence.js
-- [ ] 06_print_all_words_that_start_and_end_with_the_same_letter.js
-- [ ] 07_count_how_many_words_contain_the_letter_a.js
-- [ ] 08_capitalize_the_first_letter_of_each_word.js
-- [ ] 09_convert_the_sentence_to_title_case.js
-- [ ] 10_remove_extra_spaces_between_words.js
+- [x] 01_print_each_word_of_a_sentence_on_a_new_line.js
+- [x] 02_count_how_many_words_have_even_length.js
+- [x] 03_find_the_longest_word_in_a_sentence.js
+- [x] 04_find_the_shortest_word_in_a_sentence.js
+- [x] 05_swap_the_first_and_last_words_in_a_sentence.js
+- [x] 06_print_all_words_that_start_and_end_with_the_same_letter.js
+- [x] 07_count_how_many_words_contain_the_letter_a.js
+- [x] 08_capitalize_the_first_letter_of_each_word.js
+- [x] 09_convert_the_sentence_to_title_case.js
+- [x] 10_remove_extra_spaces_between_words.js
 
 ### 📊 Phase_05_Strings Summary
 
-Solved : **0/50**
+Solved : **50/50**
 
-`░░░░░░░░░░░░░░░░░░░░ 0%`
+`████████████████████ 100%`
 
 ---
 
@@ -487,94 +487,94 @@ Solved : **0/50**
 
 ## Category_01_Number_Based_Logical_Combinations
 
-Progress : **0/10 (0%)**
+Progress : **10/10 (100%)**
 
-`░░░░░░░░░░░░░░░░░░░░`
+`████████████████████`
 
-- [ ] 01_print_all_numbers_between_1_and_n_that_are_divisible_by_both_3_and_5.js
-- [ ] 02_find_the_sum_of_digits_of_a_number_using_a_loop.js
-- [ ] 03_check_if_a_number_is_an_armstrong_number.js
-- [ ] 04_print_all_armstrong_numbers_between_1_and_1000.js
-- [ ] 05_find_the_factorial_of_a_number_using_recursion.js
-- [ ] 06_count_how_many_even_digits_a_number_contains.js
-- [ ] 07_print_all_prime_numbers_between_1_and_n.js
-- [ ] 08_print_the_reverse_of_a_number.js
-- [ ] 09_check_if_a_number_is_a_palindrome.js
-- [ ] 10_check_if_a_number_is_a_perfect_number.js
+- [x] 01_print_all_numbers_between_1_and_n_that_are_divisible_by_both_3_and_5.js
+- [x] 02_find_the_sum_of_digits_of_a_number_using_a_loop.js
+- [x] 03_check_if_a_number_is_an_armstrong_number.js
+- [x] 04_print_all_armstrong_numbers_between_1_and_1000.js
+- [x] 05_find_the_factorial_of_a_number_using_recursion.js
+- [x] 06_count_how_many_even_digits_a_number_contains.js
+- [x] 07_print_all_prime_numbers_between_1_and_n.js
+- [x] 08_print_the_reverse_of_a_number.js
+- [x] 09_check_if_a_number_is_a_palindrome.js
+- [x] 10_check_if_a_number_is_a_perfect_number.js
 
 ## Category_02_String_And_Logic_Mix
 
-Progress : **0/10 (0%)**
+Progress : **10/10 (100%)**
 
-`░░░░░░░░░░░░░░░░░░░░`
+`████████████████████`
 
-- [ ] 01_check_if_two_strings_are_anagrams_without_using_collections.js
-- [ ] 02_count_vowels_in_each_word_of_a_sentence.js
-- [ ] 03_reverse_words_in_a_string_if_their_length_is_even.js
-- [ ] 04_replace_every_vowel_in_a_string_with_its_position.js
-- [ ] 05_print_characters_that_appear_more_than_once_without_using_a_map.js
-- [ ] 06_count_words_that_start_and_end_with_the_same_letter.js
-- [ ] 07_toggle_case_for_every_alternate_word_in_a_sentence.js
-- [ ] 08_check_if_two_strings_are_rotations_of_each_other.js
-- [ ] 09_find_the_word_with_the_maximum_vowels_in_a_sentence.js
-- [ ] 10_remove_duplicate_words_from_a_sentence.js
+- [x] 01_check_if_two_strings_are_anagrams_without_using_collections.js
+- [x] 02_count_vowels_in_each_word_of_a_sentence.js
+- [x] 03_reverse_words_in_a_string_if_their_length_is_even.js
+- [x] 04_replace_every_vowel_in_a_string_with_its_position.js
+- [x] 05_print_characters_that_appear_more_than_once_without_using_a_map.js
+- [x] 06_count_words_that_start_and_end_with_the_same_letter.js
+- [x] 07_toggle_case_for_every_alternate_word_in_a_sentence.js
+- [x] 08_check_if_two_strings_are_rotations_of_each_other.js
+- [x] 09_find_the_word_with_the_maximum_vowels_in_a_sentence.js
+- [x] 10_remove_duplicate_words_from_a_sentence.js
 
 ## Category_03_Array_And_Looping_Logic
 
-Progress : **0/10 (0%)**
+Progress : **10/10 (100%)**
 
-`░░░░░░░░░░░░░░░░░░░░`
+`████████████████████`
 
-- [ ] 01_find_the_maximum_and_minimum_element_in_an_array.js
-- [ ] 02_count_how_many_positive_negative_and_zero_elements_are_in_an_array.js
-- [ ] 03_print_all_unique_elements_from_an_array.js
-- [ ] 04_reverse_an_array_in_place.js
-- [ ] 05_shift_all_zeros_to_the_end_of_an_array.js
-- [ ] 06_count_how_many_elements_are_even_at_an_even_index.js
-- [ ] 07_merge_two_arrays_into_one.js
-- [ ] 08_find_the_second_largest_element_in_an_array.js
-- [ ] 09_rotate_an_array_by_one_position_to_the_right.js
-- [ ] 10_find_the_sum_of_all_elements_at_odd_indices.js
+- [x] 01_find_the_maximum_and_minimum_element_in_an_array.js
+- [x] 02_count_how_many_positive_negative_and_zero_elements_are_in_an_array.js
+- [x] 03_print_all_unique_elements_from_an_array.js
+- [x] 04_reverse_an_array_in_place.js
+- [x] 05_shift_all_zeros_to_the_end_of_an_array.js
+- [x] 06_count_how_many_elements_are_even_at_an_even_index.js
+- [x] 07_merge_two_arrays_into_one.js
+- [x] 08_find_the_second_largest_element_in_an_array.js
+- [x] 09_rotate_an_array_by_one_position_to_the_right.js
+- [x] 10_find_the_sum_of_all_elements_at_odd_indices.js
 
 ## Category_04_Nested_Logic_And_Pattern_Flow
 
-Progress : **0/10 (0%)**
+Progress : **8/10 (80%)**
 
-`░░░░░░░░░░░░░░░░░░░░`
+`████████████████░░░░`
 
-- [ ] 01_print_a_multiplication_table_in_a_formatted_10x10_grid.js
-- [ ] 02_print_all_pairs_in_an_array_whose_sum_equals_a_given_number.js
-- [ ] 03_print_all_subarrays_of_a_given_array.js
-- [ ] 04_check_if_an_array_is_sorted_in_ascending_or_descending_order.js
-- [ ] 05_count_how_many_times_a_number_appears_consecutively_in_an_array.js
-- [ ] 06_find_all_pairs_of_characters_in_a_string_that_are_the_same_using_nested_loops.js
-- [ ] 07_print_a_pattern_of_increasing_characters_a_ab_abc.js
+- [x] 01_print_a_multiplication_table_in_a_formatted_10x10_grid.js
+- [x] 02_print_all_pairs_in_an_array_whose_sum_equals_a_given_number.js
+- [x] 03_print_all_subarrays_of_a_given_array.js
+- [x] 04_check_if_an_array_is_sorted_in_ascending_or_descending_order.js
+- [x] 05_count_how_many_times_a_number_appears_consecutively_in_an_array.js
+- [x] 06_find_all_pairs_of_characters_in_a_string_that_are_the_same_using_nested_loops.js
+- [x] 07_print_a_pattern_of_increasing_characters_a_ab_abc.js
 - [ ] 08_print_pascals_triangle_up_to_n_rows.js
-- [ ] 09_generate_fibonacci_series_up_to_n_using_recursion.js
+- [x] 09_generate_fibonacci_series_up_to_n_using_recursion.js
 - [ ] 10_print_numbers_in_a_spiral_like_pattern_conceptual_dry_run.js
 
 ## Category_05_Applied_Reasoning_And_Real_Life_Logic
 
-Progress : **0/10 (0%)**
+Progress : **10/10 (100%)**
 
-`░░░░░░░░░░░░░░░░░░░░`
+`████████████████████`
 
-- [ ] 01_given_marks_of_students_count_how_many_passed_marks_40.js
-- [ ] 02_take_age_inputs_and_count_adults_minors_and_senior_citizens.js
-- [ ] 03_validate_a_password_with_uppercase_lowercase_digit_and_special_character.js
-- [ ] 04_simulate_a_simple_calculator_using_switch_case.js
-- [ ] 05_count_how_many_times_a_coin_lands_on_heads_or_tails_using_random.js
-- [ ] 06_print_the_frequency_of_each_digit_in_a_number.js
-- [ ] 07_find_common_elements_between_two_arrays.js
-- [ ] 08_print_characters_that_are_common_in_two_strings.js
-- [ ] 09_count_how_many_prime_numbers_are_present_in_an_array.js
-- [ ] 10_print_all_palindromic_words_from_a_sentence.js
+- [x] 01_given_marks_of_students_count_how_many_passed_marks_40.js
+- [x] 02_take_age_inputs_and_count_adults_minors_and_senior_citizens.js
+- [x] 03_validate_a_password_with_uppercase_lowercase_digit_and_special_character.js
+- [x] 04_simulate_a_simple_calculator_using_switch_case.js
+- [x] 05_count_how_many_times_a_coin_lands_on_heads_or_tails_using_random.js
+- [x] 06_print_the_frequency_of_each_digit_in_a_number.js
+- [x] 07_find_common_elements_between_two_arrays.js
+- [x] 08_print_characters_that_are_common_in_two_strings.js
+- [x] 09_count_how_many_prime_numbers_are_present_in_an_array.js
+- [x] 10_print_all_palindromic_words_from_a_sentence.js
 
 ### 📊 Phase_06_Mixed_Logical_Challenges Summary
 
-Solved : **0/50**
+Solved : **48/50**
 
-`░░░░░░░░░░░░░░░░░░░░ 0%`
+`███████████████████░ 96%`
 
 ---
 
