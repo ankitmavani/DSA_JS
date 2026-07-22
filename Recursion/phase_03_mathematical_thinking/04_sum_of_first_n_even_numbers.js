@@ -1,0 +1,12 @@
+// ==========================================
+// Problem: Sum of first n even numbers
+// Category: phase_03_mathematical_thinking
+// Difficulty: Easy
+// Status: ❌ Not Solved
+// ==========================================
+
+function solve() {
+  // TODO: implement
+}
+
+solve();

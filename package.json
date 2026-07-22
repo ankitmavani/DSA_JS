@@ -4,9 +4,9 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "generate": "node scripts/MasterLogicBuilding/generate.js",
-    "progress": "node scripts/MasterLogicBuilding/readme.js",
-    "track": "node scripts/MasterLogicBuilding/track.js",
+    "generate": "node scripts/Recursion/generate.js",
+    "progress": "node scripts/Recursion/readme.js",
+    "track": "node scripts/Recursion/track.js",
     "format": "prettier --write .",
     "lint": "eslint .",
     "fix": "eslint . --fix",
