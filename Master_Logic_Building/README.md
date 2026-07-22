@@ -1,10 +1,10 @@
 # 📊 Overall Progress
 
-**Solved:** 273/305
+**Solved:** 303/305
 
-**Completion:** 90%
+**Completion:** 99%
 
-`██████████████████░░ 90%`
+`████████████████████ 99%`
 
 ---
 
@@ -236,60 +236,60 @@ Progress : **10/10 (100%)**
 
 ## Level_02_Number_Based_Recursive_Thinking
 
-Progress : **0/10 (0%)**
+Progress : **10/10 (100%)**
 
-`░░░░░░░░░░░░░░░░░░░░`
+`████████████████████`
 
-- [ ] 01_count_the_number_of_digits_in_a_number_recursively.js
-- [ ] 02_reverse_a_number_recursively.js
-- [ ] 03_check_if_a_number_is_a_palindrome_using_recursion.js
-- [ ] 04_find_the_product_of_digits_of_a_number_recursively.js
-- [ ] 05_find_gcd_hcf_of_two_numbers_using_euclids_algorithm_recursively.js
-- [ ] 06_convert_a_number_to_binary_recursively.js
-- [ ] 07_print_digits_of_a_number_in_words_recursively.js
-- [ ] 08_calculate_the_sum_of_first_n_even_numbers_recursively.js
-- [ ] 09_calculate_the_sum_of_first_n_odd_numbers_recursively.js
-- [ ] 10_find_ncr_combination_recursively_using_pascals_relation.js
+- [x] 01_count_the_number_of_digits_in_a_number_recursively.js
+- [x] 02_reverse_a_number_recursively.js
+- [x] 03_check_if_a_number_is_a_palindrome_using_recursion.js
+- [x] 04_find_the_product_of_digits_of_a_number_recursively.js
+- [x] 05_find_gcd_hcf_of_two_numbers_using_euclids_algorithm_recursively.js
+- [x] 06_convert_a_number_to_binary_recursively.js
+- [x] 07_print_digits_of_a_number_in_words_recursively.js
+- [x] 08_calculate_the_sum_of_first_n_even_numbers_recursively.js
+- [x] 09_calculate_the_sum_of_first_n_odd_numbers_recursively.js
+- [x] 10_find_ncr_combination_recursively_using_pascals_relation.js
 
 ## Level_03_Pattern_And_Printing_Problems
 
-Progress : **0/10 (0%)**
+Progress : **10/10 (100%)**
 
-`░░░░░░░░░░░░░░░░░░░░`
+`████████████████████`
 
-- [ ] 01_print_a_line_of_n_stars_recursively.js
-- [ ] 02_print_a_square_of_stars_recursively_n_x_n.js
-- [ ] 03_print_a_triangle_of_stars_recursively_top_down.js
-- [ ] 04_print_a_triangle_of_stars_recursively_bottom_up.js
-- [ ] 05_print_number_pattern_recursively_1_to_n_each_row.js
-- [ ] 06_print_reverse_triangle_pattern_recursively.js
-- [ ] 07_print_multiplication_table_of_n_recursively.js
-- [ ] 08_print_numbers_in_increasing_and_decreasing_order_in_the_same_recursive_function.js
-- [ ] 09_print_the_sum_of_series_1_2_3_n_recursively_and_display_each_step.js
-- [ ] 10_print_character_pattern_a_ab_abc_recursively.js
+- [x] 01_print_a_line_of_n_stars_recursively.js
+- [x] 02_print_a_square_of_stars_recursively_n_x_n.js
+- [x] 03_print_a_triangle_of_stars_recursively_top_down.js
+- [x] 04_print_a_triangle_of_stars_recursively_bottom_up.js
+- [x] 05_print_number_pattern_recursively_1_to_n_each_row.js
+- [x] 06_print_reverse_triangle_pattern_recursively.js
+- [x] 07_print_multiplication_table_of_n_recursively.js
+- [x] 08_print_numbers_in_increasing_and_decreasing_order_in_the_same_recursive_function.js
+- [x] 09_print_the_sum_of_series_1_2_3_n_recursively_and_display_each_step.js
+- [x] 10_print_character_pattern_a_ab_abc_recursively.js
 
 ## Level_04_String_Based_Recursion
 
-Progress : **0/10 (0%)**
+Progress : **10/10 (100%)**
 
-`░░░░░░░░░░░░░░░░░░░░`
+`████████████████████`
 
-- [ ] 01_reverse_a_string_using_recursion.js
-- [ ] 02_check_if_a_string_is_a_palindrome_using_recursion.js
-- [ ] 03_count_vowels_in_a_string_recursively.js
-- [ ] 04_remove_all_spaces_from_a_string_recursively.js
-- [ ] 05_replace_all_occurrences_of_a_character_recursively.js
-- [ ] 06_remove_all_occurrences_of_a_character_recursively.js
-- [ ] 07_print_all_characters_of_a_string_one_by_one_recursively.js
-- [ ] 08_print_the_string_in_reverse_order_recursively_without_loops.js
-- [ ] 09_convert_a_string_to_uppercase_recursively.js
-- [ ] 10_count_consonants_and_vowels_separately_using_recursion.js
+- [x] 01_reverse_a_string_using_recursion.js
+- [x] 02_check_if_a_string_is_a_palindrome_using_recursion.js
+- [x] 03_count_vowels_in_a_string_recursively.js
+- [x] 04_remove_all_spaces_from_a_string_recursively.js
+- [x] 05_replace_all_occurrences_of_a_character_recursively.js
+- [x] 06_remove_all_occurrences_of_a_character_recursively.js
+- [x] 07_print_all_characters_of_a_string_one_by_one_recursively.js
+- [x] 08_print_the_string_in_reverse_order_recursively_without_loops.js
+- [x] 09_convert_a_string_to_uppercase_recursively.js
+- [x] 10_count_consonants_and_vowels_separately_using_recursion.js
 
 ### 📊 Phase_03_Recursion Summary
 
-Solved : **10/40**
+Solved : **40/40**
 
-`█████░░░░░░░░░░░░░░░ 25%`
+`████████████████████ 100%`
 
 ---
 
