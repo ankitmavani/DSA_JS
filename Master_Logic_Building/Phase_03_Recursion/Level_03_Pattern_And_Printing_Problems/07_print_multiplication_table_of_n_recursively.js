@@ -3,11 +3,16 @@
 // Phase      : Phase_03_Recursion
 // Level      : Level_03_Pattern_And_Printing_Problems
 // Difficulty : Easy
-// Status     : ❌ Not Solved
+// Status     : ✅ Solved
 // =======================================================
 
-function solve() {
+function solve(num, index = 1) {
   // Write your solution here
+  if (index > 10) {
+    return;
+  }
+  console.log(`${num} * ${index} = ${index * num}`);
+  solve(num, index + 1);
 }
 
-solve();
+solve(5);

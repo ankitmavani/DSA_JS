@@ -3,11 +3,14 @@
 // Phase      : Phase_03_Recursion
 // Level      : Level_03_Pattern_And_Printing_Problems
 // Difficulty : Easy
-// Status     : ❌ Not Solved
+// Status     : ✅ Solved
 // =======================================================
 
-function solve() {
+function solve(num, index = 1, sum = 0) {
   // Write your solution here
+  if (index > num) return;
+  console.log(`${sum} + ${index} = ${sum + index}`);
+  solve(num, index + 1, sum + index);
 }
 
-solve();
+solve(5);

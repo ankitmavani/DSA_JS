@@ -3,11 +3,14 @@
 // Phase      : Phase_03_Recursion
 // Level      : Level_03_Pattern_And_Printing_Problems
 // Difficulty : Easy
-// Status     : ❌ Not Solved
+// Status     : ✅ Solved
 // =======================================================
 
-function solve() {
+function solve(n, str = '') {
   // Write your solution here
+  if (n === 0) return str;
+  str += '*';
+  return solve(n - 1, str);
 }
 
-solve();
+console.log(solve(5));

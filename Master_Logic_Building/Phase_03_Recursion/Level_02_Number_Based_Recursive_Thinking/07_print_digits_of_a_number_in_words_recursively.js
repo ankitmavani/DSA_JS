@@ -3,11 +3,26 @@
 // Phase      : Phase_03_Recursion
 // Level      : Level_02_Number_Based_Recursive_Thinking
 // Difficulty : Easy
-// Status     : ❌ Not Solved
+// Status     : ✅ Solved
 // =======================================================
 
-function solve() {
+const words = [
+  'Zero',
+  'One',
+  'Two',
+  'Three',
+  'Four',
+  'Five',
+  'Six',
+  'Seven',
+  'Eight',
+  'Nine',
+];
+
+function solve(num) {
   // Write your solution here
+  if (!num) return '';
+  return solve(parseInt(num / 10)) + words[num % 10] + ' ';
 }
 
-solve();
+console.log(solve(1239801));
