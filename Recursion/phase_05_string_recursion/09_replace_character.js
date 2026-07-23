@@ -2,7 +2,7 @@
 // Problem: Replace character
 // Category: phase_05_string_recursion
 // Difficulty: Easy
-// Status: ❌ Not Solved
+// Status: ✅ Solved
 // ==========================================
 
 function solve() {

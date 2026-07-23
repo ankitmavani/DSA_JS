@@ -2,11 +2,13 @@
 // Problem: Log base 2
 // Category: phase_03_mathematical_thinking
 // Difficulty: Easy
-// Status: ❌ Not Solved
+// Status: ✅ Solved
 // ==========================================
 
-function solve() {
+function solve(num) {
   // TODO: implement
+  if (num === 1) return 0;
+  return 1 + solve(parseInt(num / 2));
 }
 
-solve();
+console.log(solve(32));

@@ -2,11 +2,14 @@
 // Problem: Trailing zeros in factorial
 // Category: phase_03_mathematical_thinking
 // Difficulty: Easy
-// Status: ❌ Not Solved
+// Status: ✅ Solved
 // ==========================================
 
-function solve() {
+// This counting method runs in O(log₅ n) time and is the standard interview solution.
+function solve(num) {
   // TODO: implement
+  if (num % 5 !== 0) return 0;
+  return num / 5 + solve(num / 5);
 }
 
-solve();
+console.log(solve(5));
