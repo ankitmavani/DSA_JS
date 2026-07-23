@@ -2,11 +2,14 @@
 // Problem: Print numbers from 1 to n before recursive call
 // Category: phase_01_recursion_mindset
 // Difficulty: Easy
-// Status: ❌ Not Solved
+// Status: ✅ Solved
 // ==========================================
 
-function solve() {
+function solve(num) {
   // TODO: implement
+  if (num === 0) return;
+  console.log(num);
+  solve(num - 1);
 }
 
-solve();
+solve(5);

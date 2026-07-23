@@ -2,11 +2,13 @@
 // Problem: Product of digits
 // Category: phase_02_linear_number_recursion
 // Difficulty: Easy
-// Status: ❌ Not Solved
+// Status: ✅ Solved
 // ==========================================
 
-function solve() {
+function solve(num) {
   // TODO: implement
+  if (!num) return 1;
+  return (num % 10) * solve(parseInt(num / 10));
 }
 
-solve();
+console.log(solve(12345));

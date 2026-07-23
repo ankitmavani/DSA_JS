@@ -2,11 +2,13 @@
 // Problem: Count zeros
 // Category: phase_02_linear_number_recursion
 // Difficulty: Easy
-// Status: ❌ Not Solved
+// Status: ✅ Solved
 // ==========================================
 
-function solve() {
+function solve(num) {
   // TODO: implement
+  if (!num) return 0;
+  return (num % 10 === 0 ? 1 : 0) + solve(parseInt(num / 10));
 }
 
-solve();
+console.log(solve(101020300302030));

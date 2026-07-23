@@ -2,11 +2,13 @@
 // Problem: Power x raised to n
 // Category: phase_02_linear_number_recursion
 // Difficulty: Easy
-// Status: ❌ Not Solved
+// Status: ✅ Solved
 // ==========================================
 
-function solve() {
+function solve(num, pow) {
   // TODO: implement
+  if (pow === 0) return 1;
+  return num * solve(num, pow - 1);
 }
 
-solve();
+console.log(solve(2, 4));

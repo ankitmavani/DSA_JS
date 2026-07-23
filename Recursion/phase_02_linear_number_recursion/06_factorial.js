@@ -2,11 +2,13 @@
 // Problem: Factorial
 // Category: phase_02_linear_number_recursion
 // Difficulty: Easy
-// Status: ❌ Not Solved
+// Status: ✅ Solved
 // ==========================================
 
-function solve() {
+function solve(num) {
   // TODO: implement
+  if (num === 0) return 1;
+  return num * solve(num - 1);
 }
 
-solve();
+console.log(solve(5));

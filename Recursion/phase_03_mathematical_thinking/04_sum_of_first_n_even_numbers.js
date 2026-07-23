@@ -2,11 +2,13 @@
 // Problem: Sum of first n even numbers
 // Category: phase_03_mathematical_thinking
 // Difficulty: Easy
-// Status: ❌ Not Solved
+// Status: ✅ Solved
 // ==========================================
 
-function solve() {
+function solve(num) {
   // TODO: implement
+  if (num === 0) return 0;
+  return (num % 2 === 0 ? num : 0) + solve(num - 1);
 }
 
-solve();
+console.log(solve(10));

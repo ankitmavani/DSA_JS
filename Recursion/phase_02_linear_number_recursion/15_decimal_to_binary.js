@@ -2,11 +2,13 @@
 // Problem: Decimal to Binary
 // Category: phase_02_linear_number_recursion
 // Difficulty: Easy
-// Status: ❌ Not Solved
+// Status: ✅ Solved
 // ==========================================
 
-function solve() {
+function solve(num) {
   // TODO: implement
+  if (!num) return '';
+  return solve(parseInt(num / 2)) + (num % 2);
 }
 
-solve();
+console.log(solve(101));
