@@ -1,64 +1,64 @@
 # 📊 Overall Progress
 
-✅ 0/100
+✅ 38/100
 
-📈 0%
+📈 38%
 
 ```
-░░░░░░░░░░ 0%
+███░░░░░░ 38%
 ```
 
 # 🚀 DSA Progress Dashboard
 
 ## 📂 phase_01_recursion_mindset
-Progress: 0/10 (0%)
+Progress: 10/10 (100%)
 
-- [ ] 01_print_hello_exactly_5_times.js
-- [ ] 02_print_numbers_from_1_to_5_without_parameters.js
-- [ ] 03_print_numbers_from_5_to_1.js
-- [ ] 04_print_before_call_and_after_call.js
-- [ ] 05_print_numbers_from_1_to_n_after_recursive_call.js
-- [ ] 06_print_numbers_from_1_to_n_before_recursive_call.js
-- [ ] 07_print_start_once_and_end_once.js
-- [ ] 08_print_current_value_of_n.js
-- [ ] 09_recursive_function_stops_when_n_equals_0.js
-- [ ] 10_dry_run_recursion_and_call_stack.js
+- [x] 01_print_hello_exactly_5_times.js
+- [x] 02_print_numbers_from_1_to_5_without_parameters.js
+- [x] 03_print_numbers_from_5_to_1.js
+- [x] 04_print_before_call_and_after_call.js
+- [x] 05_print_numbers_from_1_to_n_after_recursive_call.js
+- [x] 06_print_numbers_from_1_to_n_before_recursive_call.js
+- [x] 07_print_start_once_and_end_once.js
+- [x] 08_print_current_value_of_n.js
+- [x] 09_recursive_function_stops_when_n_equals_0.js
+- [x] 10_dry_run_recursion_and_call_stack.js
 
 ## 📂 phase_02_linear_number_recursion
-Progress: 0/20 (0%)
+Progress: 20/20 (100%)
 
-- [ ] 01_print_numbers_from_1_to_n.js
-- [ ] 02_print_numbers_from_n_to_1.js
-- [ ] 03_print_even_numbers_from_1_to_n.js
-- [ ] 04_print_odd_numbers_from_1_to_n.js
-- [ ] 05_sum_of_first_n_natural_numbers.js
-- [ ] 06_factorial.js
-- [ ] 07_power_x_raised_to_n.js
-- [ ] 08_nth_fibonacci_number.js
-- [ ] 09_fibonacci_series.js
-- [ ] 10_count_digits.js
-- [ ] 11_sum_of_digits.js
-- [ ] 12_product_of_digits.js
-- [ ] 13_reverse_a_number.js
-- [ ] 14_palindrome_number.js
-- [ ] 15_decimal_to_binary.js
-- [ ] 16_decimal_to_octal.js
-- [ ] 17_print_digits_one_by_one.js
-- [ ] 18_print_digits_in_reverse.js
-- [ ] 19_print_digits_in_words.js
-- [ ] 20_count_zeros.js
+- [x] 01_print_numbers_from_1_to_n.js
+- [x] 02_print_numbers_from_n_to_1.js
+- [x] 03_print_even_numbers_from_1_to_n.js
+- [x] 04_print_odd_numbers_from_1_to_n.js
+- [x] 05_sum_of_first_n_natural_numbers.js
+- [x] 06_factorial.js
+- [x] 07_power_x_raised_to_n.js
+- [x] 08_nth_fibonacci_number.js
+- [x] 09_fibonacci_series.js
+- [x] 10_count_digits.js
+- [x] 11_sum_of_digits.js
+- [x] 12_product_of_digits.js
+- [x] 13_reverse_a_number.js
+- [x] 14_palindrome_number.js
+- [x] 15_decimal_to_binary.js
+- [x] 16_decimal_to_octal.js
+- [x] 17_print_digits_one_by_one.js
+- [x] 18_print_digits_in_reverse.js
+- [x] 19_print_digits_in_words.js
+- [x] 20_count_zeros.js
 
 ## 📂 phase_03_mathematical_thinking
-Progress: 0/15 (0%)
+Progress: 8/15 (53%)
 
-- [ ] 01_gcd_using_euclid_algorithm.js
-- [ ] 02_lcm_using_recursion.js
-- [ ] 03_ncr_using_pascal_relation.js
-- [ ] 04_sum_of_first_n_even_numbers.js
-- [ ] 05_sum_of_first_n_odd_numbers.js
-- [ ] 06_prime_number.js
-- [ ] 07_count_prime_digits.js
-- [ ] 08_maximum_and_minimum_digit.js
+- [x] 01_gcd_using_euclid_algorithm.js
+- [x] 02_lcm_using_recursion.js
+- [x] 03_ncr_using_pascal_relation.js
+- [x] 04_sum_of_first_n_even_numbers.js
+- [x] 05_sum_of_first_n_odd_numbers.js
+- [x] 06_prime_number.js
+- [x] 07_count_prime_digits.js
+- [x] 08_maximum_and_minimum_digit.js
 - [ ] 09_tower_of_hanoi.js
 - [ ] 10_count_occurrences_of_digit.js
 - [ ] 11_armstrong_number.js
